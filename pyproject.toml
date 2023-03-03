@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lat-repo"
+version = "0.1.0"
+description = ""
+authors = ["KennethOng02 <kennethongkp@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lat_repo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.3"
+jupyter = "^1.0.0"
+ipykernel = "^6.21.2"
+notebook = "^6.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
