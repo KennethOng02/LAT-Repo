@@ -1,0 +1,525 @@
+An analysis of children’ interaction with an AI chatbot and its 
+impact on their interest in reading 
+
+ARTICLE INFO                                
+Keywords:
+Data science applications in education
+Human-computer interface applications in subject areas elementary education 
+
+ABSTRACT  
+Educators have indicated that social approaches to reading such as book talk activities are helpful for promoting students’ interest in reading. However, it is not possible for teachers to interact with all students to talk about the books they have read as they have different language profi­ciency levels and different topics of interest. This study thus aimed to understand the affordances of a chatbot built with artificialintelligence  techniques as a book talk companion, and to explore the role of the interaction in students’ engagement and interest in reading. Adopting AI tech­niques, the chatbot in this study had basic understanding of 157 books. While students could choose any of the books to read and interact with the chatbot, the chatbot provided book talk and social affective cues to facilitate the book talk. Multiple data sources from 68 students partici­pating in a 6-week reading activity were collected and analyzed. It was found that students perceived a high level of social connection with the chatbot. In particular, students talking with the chatbot maintained a stable level of situational interest in the value dimension, while the interest of those who did not participate in the book talk with the chatbot faded significantly. Students’ perceptions of the social connection with the chatbot were closely related to their engagement in the reading activity and correlated with both their triggered-situational interest and  maintained situational interest. The results provide insights into how a chatbot with AI techniques can create a positive reading experience to sustain students’ interest in learning
+
+1.  Introduction 
+
+    Extensive reading (Day & Bamford, 2002) has been considered as an integral pathway to language learning and general learning. 
+Extensive reading is a self-determining reading process in which students have ownership of their reading and can choose books to read 
+based  on their language  proficiency level and interests without predefined goals or pressure from  others (Whitten et al., 2019; 
+Yamashita, 2013). Recent studies have confirmed the positive impact of extensive reading, and multiple cognitive effects have been 
+reported in the literature. A review by Yamashita (2013) reported the effect of extensive reading on language learning including the 
+enhancement of reading comprehension, reading rate, grammar, writing, vocabulary, and general language proficiency. More spe­
+cifically, most of the meta-analyses of extensive reading showed medium to large effect sizes for vocabulary growth and reading comprehension (McQuillan, 2019). 
+    It has been widely reported that extensive reading leads to positive reading affect including better reading attitude, motivation, and 
+interest in reading (Chen et al., 2013; Yamashita, 2013). The close relation between students’ affective feeling and their language 
+development may be due to the fact that extensive reading is an example of a flowactivity  (Huang & Nathan-Roberts, 2019) in which 
+learners are totally immersed in the content of books and are therefore more likely to adopt active strategies to learn (Liu et al., 2011). 
+However, related studies have also pointed out that structured extensive reading programs in school education did not achieve the 
+expected results (Milliner, 2017). Instead of allowing students to read freely, structured programs assign students to complete certain 
+reading  duties, and students tend to do the minimal  amount  of reading  necessary to fulfill the requirements (McQuillan, 2019). 
+Extensive reading as an assignment given by the teacher did not show significant improvement in students’    language proficiency 
+(Nakamura, 2018). These inconsistent findingsmay    be attributed to the feature of the reading activity that asked students to read one 
+book  every  2 weeks. Furthermore,  it has been  reported that very  few students are dedicated  EFL  readers for pleasure as it is 
+extraordinarily difficult for beginner readers to deal with foreign languages (Cho  &  Krashen, 2019a).  Therefore, approaches  to 
+enhancing student engagement in extensive reading in a foreign language have become critical to achieve positive effects. 
+    Social approaches are considered a pathway to increasing student enthusiasm for reading. Traditionally, reading is considered as a 
+solitary psychological process in which  the individual constructs meaning  from  the text. However,  contemporary   socio-cultural 
+constructivists believe that meaningful learning cannot be isolated from the social, cultural, and contextualized background against 
+which meaningful learning occurs (Lund, 2008; Vygotsky, 1978). Consistent with this rationale, learning and reading is a social process 
+which involves social interaction through which shared understanding is constructed (Harrison & Thomas, 2009). A community-based 
+learning approach  (Curran,  1976) that emphasizes  the importance  of the social dimension  of learning is thus integral. Such an 
+approach asserts that learning is not an information transmitting process of passing assignments from teachers to students, but a social 
+process that involves not only student cognitive development but also the students’ affective needs. More specifically, the learning 
+activities should address students’ needs in the sense of ownership and curiosity in an attempt to foster their motivation and interest in 
+learning (Yamashita, 2013). 
+    The interest-driven social approaches such as book talk activities (Chambers, 1985) may address readers’ cognitive and affective 
+needs in reading. On one hand, the conversation about a book may prompt students to think about the context of the book (Gunter & 
+Kenny, 2008). On the other hand, the social setting of the activity may afford a fun and enjoyable atmosphere which engages students 
+in reading (Cremin & Swann, 2016). However, an empirical study by Eriksson (2002) also coined the term “the book talk dilemma,” 
+referring to the dilemma of having students perform a synchronized activity versus free reading for pleasure. The dilemma signifiesa  
+general challenge facing teachers who implement extensive reading in the classroom. While extensive reading should afford students 
+opportunities to read based on their own interest and pace, teachers generally regulate the interest-driven social activity as a syn­
+chronized activity in which all students read a book at the same pace, exercising a sort of quasi-control over students. This problem 
+may be partially due to the fact that teachers can only talk with students according to a given schedule, and cannot address the needs of 
+different students if students read different books at different paces. 
+    Artificial intelligent (AI) enabled chatbots (Abdul-Kader & Woods, 2015) may have the potential to address this dilemma as the 
+chatbots can act as reading companions which can interact with students about the books they are interested in. Chatbots are auto­
+matic computer conversation agents with knowledge in certain domains to achieve a specificgoal  such as customer service (Cui et al., 
+2017) or health care (Ayanouz et al., 2020) through computer-human conversation. With these AI techniques such as natural language 
+processing and machine learning techniques (see Allen NLP https://docs.allennlp.org/main/for a summary), the chatbots can have 
+basic understanding of the books that students read. For instance, the co-reference resolution technique (Jurafsky & Martin, 2020; 
+Sukthanker et al., 2020) can retrieve the reference relations between noun and pronoun and can thus retrieve the main characters of a 
+story. With the dependency parsing technique (Dozat & Manning, 2018), chatbots can understand the basic sentence structure and thus 
+identify the main actions that characters perform in a story. The chatbot development kits such as Google DialogFlow enable de­
+velopers to specify conversation themes and dialog moves to implement chatbots based on domain-specific requirements. 
+    Recently, an increasing number of studies have attempted to understand how educational chatbots may augment learning in many 
+different settings, for example, vocabulary learning (Chen et al., 2020; Mazzoni  & Benvenuti,  2015; Tanaka  &  Matsuzoe, 2012), 
+learning of speaking skills (Ayedoun et al., 2015), writing (Lin & Chang, 2020), mathematics (Konijn & Hoorn, 2020; Mohammad­
+hasani  et al., 2018), and science learning (Tellols et al., 2020). These chatbots used the question-and-answer method  to prompt 
+students to carry out necessary  learning in order to learn the target knowledge or skill at the cognitive level. Along this line of 
+development, interaction with chatbots may potentially impact students’ engagement in reading activities as chatbots may provide 
+prompts to guide students to think about the stories they are reading (Xu et al., 2021) and act like human reading companions that can 
+accompany them and provide affective supports to help them read actively (Michaelis &     Mutlu, 2017, 2018). However, previous 
+studies have indicated that students may respond to chatbots differently compared to interacting with real humans (Hill et al., 2015; Xu 
+et al., 2021). How students perceive the chatbot as a companion in reading is not well documented in the literature. In particular, 
+whether  students consider  the chatbots that were developed  with  current natural language processing  techniques, including the 
+co-reference resolution and dependency parsing techniques to have intelligence about the books they have read and to act like a human 
+reading companion is not clear in the literature. 
+    This study thus aimed to investigate elementary students’ interaction with a chatbot that was developed with AI techniques to 
+understand the impact of the chatbot on students’ engagement and interest in extensive reading. More specifically,this  study collected 
+and analyzed data from 68 elementary students who were EFL learners. Data include the interaction with the chatbot, and students’ 
+engagement   and  interest in reading English books during a 6-week  extensive reading  activity. By analyzing the data, this study 
+attempted to answer the following research questions: 
+
+    RQ1: How do students interact with and perceive the social connection with the chatbot? 
+    RQ2: Does the interaction with the chatbot impact students’ engagement and situational interest in extensive reading? 
+    RQ3. What role does the perceived social connection with the chatbot play in students’ engagement and situational interest in 
+    extensive reading? 
+
+2.  Literature review 
+
+2.1. Interest-driven social approach to enhancing extensive reading 
+
+    Interest represents a specific affective relationship between a person and an object. Ainley et al. (2002) indicated that interest 
+signifies an individual’s predisposition to attend to certain objects, and may also characterize a psychological state generated by 
+specificenvironmental   stimuli. Therefore, Krapp (1999) suggested that interest is “the notion of personal relevance or a readiness to 
+engage, with high level of effort, in interest-related tasks.” Interest shares similar constructs with motivation and thus they are dis­
+cussed together in the literature. Krapp further elaborated the relations between interest, motivation, and learning. According to his 
+perspective, motivation refers to how students have an actualized intention to engage in a certain learning task. Intrinsic motivation is 
+thus considered as the result of the close connection between the learning task and students’ interest. Therefore, interest has a critical 
+influence on students’ attention, learning strategies, and achievement. 
+    Research on interest development provides a clear framework to help students develop interest in reading. In the framework, 
+personal interest was initiated from situational interest that is triggered by the interaction between individuals and specific things. 
+Interesting features of an object may trigger situational interest, and the interest in this object can be maintained and can continuously 
+engage individuals to interact with the object. Therefore, situational interest involves both triggered situational interest and main­
+tained situational interest. Certain features such as novelty or attention-catching characteristics are more likely to trigger situational 
+interest (Hidi, 1990). In order to maintain situational interest, students need to findthat  a certain activity is meaningful or relevant to 
+them (Harackiewicz et al., 2000). An activity can become a personal interest only when the individual can identify its value and obtain 
+positive affective experience from it (Krapp, 1999). Krapp therefore pointed out two conditions for a person to be engaged in a certain 
+activity for a long time: (1) value: the individual considers that the activity is sufficientlyimportant,  and (2) feeling: the individual’s 
+experience in this activity is positive and emotionally satisfying. 
+    In this regard, researchers have proposed different interaction guidelines to promote students’ interest in learning activities. For 
+instance, it was found that students are more likely to perceive positive experiences of teaching materials when the teaching materials 
+are presented with warm colors, with animations including social cues, or in an anthropomorphic form (Endres et al., 2020). Baker 
+et al. (2019)  proposed  a conversational  approach  to promote  positive experience  in the classroom.  They  found  that humor, 
+self-disclosure, and narrative made students sense positive feelings of joy, encouragement, and dominance. However, a previous study 
+by Wang and Adesope (2016) added seductive details of the Yellowstone Hot Springs eruption to improve students’ interest in regular 
+text on the formation of the earth. The researchers found that the seductive material improved students’ situational interest. However, 
+the same seductive material negatively influenced students’ performance in the recall test of the topic and could not improve their 
+maintained interest in the topic. This negative impact resulted from the fact that the seductive details only attracted students’ attention 
+to the interesting part of the material and not to the core body of knowledge. Similarly, interaction with a chatbot may have the 
+potential to improve students’ situational interest in reading. However, it is worth trying to understand whether this approach may 
+maintain their long-term interest. 
+    Social approaches to reading may be helpful for promoting students’ situational interest in reading. From the perspective of social 
+constructivism, reading is considered as a social practice (Cremin & Swann, 2016) which involves subtle social relationships (e.g., 
+author-reader  and reader to reader), making  reading  a social process. The social practice affects how rights and obligations are 
+distributed among readers, which in turn influenceshow  people read, the identities that readers assume, and the meanings that readers 
+construct (Bloome &   Katz, 1997). Bloome and Katz indicated that readers have certain responsibilities and also were given some 
+privilege to perform certain actions based on the role implicitly given to them. For instance, in a parent-child reading activity, the 
+parent has the obligation to orally read the story, while the child has the right to ask questions or make comments on the pictures in the 
+books. Chambers’ book talk activity (1985) is also a social practice that was regularized to enable readers to interact with books and 
+others within a particular social setting. Conversation strategies such as opener, closer, fillers, shadowing, and following-up can be 
+applied as prompts to fulfill the teacher’s obligation to engage students in in-depth book talk (Kurishita, 2020). Kurishita’s study 
+confirmedthat   the social practice of the book talk prevents students from reading without understanding and helps them monitor their 
+reading quality. 
+    The social setting of the reading group gives readers greater choice and autonomy to decide what and how they read (Cremin & 
+Swann, 2016). Reading environments that account for a reader’s feelings about different topics and genres will be able to broaden 
+readers’ scope of interest (Huang & Nathan-Roberts, 2019). Gunter and Kenny’s study (Gunter & Kenny, 2008) asserted that reluctant 
+readers will be more likely to continue reading if a forum is provided for them to share their experiences. Their study confirmedthat  
+students’ attitudes toward the value of reading were improved at a significantlevel  after a series of book talk activities. However, it is 
+not possible for teachers to interact with all students to talk about the books they have read as the students have different language 
+proficiencylevels  and different topics of interest. Therefore, chatbots developed with AI techniques may have the potential to address 
+this issue. However, how students interact with the chatbot and how they perceive the chatbot playing the role of a human teacher 
+which is assumed to help them engage in in-depth book talk are still not clear in the literature. 
+
+2.2. Educational chatbot development and its influence on learning 
+
+    Recent educational chatbots involve three main lines of development. The firstis  the cognitive chatbot. The cognitive chatbot aims 
+to enhance students’ cognitive development. Such a line of development originated from AutoTutor (Graesser et al., 1999) which was 
+widely used to help students develop deep understanding of a topic. A significant number of studies along this line mainly provide 
+prompts for practice which suggest that students take appropriate cognitive actions to achieve certain learning goals. The prompts may 
+ask students to answer questions or may answer students’ questions (Ayedoun et al., 2015; Chen et al., 2020; Fryer et al., 2019; Lin & 
+Chang, 2020; Mazzoni & Benvenuti, 2015). In mathematics, chatbots were used to direct students’ attention to intended instruction 
+component (Mohammadhasani et al., 2018) or to ask students questions (Konijn & Hoorn, 2020). These studies confirmedthe    positive 
+effect of the interaction with chatbots on students’ learning achievement. 
+    The second type of chatbots are meta-cognitive chatbots that prompt students to reflecton  meta-cognitive questions. For example, 
+the chatbot developed by Song and Kim (2020) plays the role of a facilitator of self-regulated learning. Their study showed that the 
+meta-cognitive questions enhanced the level of self-regulated learning. Furthermore, the chatbot developed by Kautzmann and Jaques 
+(2019) guides students to reflecton  their own knowledge, while that developed by Tegos and Demetriadis (2017) prompts students to 
+examine their own ideas and link their current ideas to the main domain principles. These studies confirmedthat  the meta-cognitive 
+questions enhanced the level of meta-cognitive performance during the learning process. However, the main focus of the cognitive and 
+meta-cognitive chatbots is students’ cognitive development. How the interaction with the chatbots impacts students’ interest in the 
+learning topics is not clear in these studies. 
+    The third type of chatbots are social chatbots. Discussion of this type of chatbot is relatively scant in the literature. It is especially 
+helpful in open learning contexts in which students freely explore in an environment. The main purpose of the social chatbot is not to 
+provide students with cognitive scaffolding, but to accompany students and to provide affective supports to help them learn actively. 
+The role of social robots is to provide students with emotional support, so that they continue to be interested in learning. For example, 
+the study by Laeeq and Memon (2019) confirmed that the social chatbot demonstrated a positive impact on students’ motivation to 
+complete learning tasks in a learning management system. However, in the study by Fryer et al. (2017), the chatbot accompanied 
+students to learn. The results of their study showed that the chatbot helped students maintain task interest like human partners did in 
+the initial phase of the interaction but did not have a long-term effect. 
+    The studies by Michaelis and Mutlu (2017, 2018) and Xu et al. (2021) are among the few studies exploring how social robots can 
+accompany students while reading. The social chatbots in their studies acted as if they were reading the same books as the students and 
+they talked to the students about the books. It was reported that the chatbots extended the time that students devoted to reading. The 
+study by Xu et al. (2021) used Google Dialogflow to talk with students about the book, Three Bears in a Boat. They found that the 
+chatbot improved students’ understanding of the book as human companions did. The study by Michaelis and Mutlu (2017, 2018) 
+focused on the development of humanoid robots to act as reading companions. Students considered that the robot was motivating and 
+indicated a deepening social connection as the chatbot tracked their reading process and listened to their feelings, or gave them 
+comments.   These social chatbots accompanied   students while reading. However,   the chatbots applied by the three studies were 
+specificallydesigned  for specificstories  and thus the interaction between the chatbot and students was guided by pre-definedprompt  
+questions prepared by the researchers. For instance, the student-robot interaction in the study by Xu et al. (2021) was based on the nine 
+pre-definedprompt   questions for the book chosen by the researchers, and the student-robot interaction in the study by Michaelis and 
+Mutlu (2017, 2018) was based on the specifictags  pre-programmed by the researchers. To better support the book talk for a wide scope 
+of books with chatbots, it is necessary to understand how AI techniques can process the texts of books and how the result obtained by 
+the AI techniques can be used to guide the student-robot interaction. 
+    AI techniques were applied to obtain knowledge from educational historical data. For instance, the study by Yuan et al. (2021) 
+applied Google DialogFlow, a chatbot development platform, to design and train the chatbot to identify users’ intent and to provide 
+appropriate responses based on the pre-definedlearning  flows.The  chatbot provided students with appropriate learning materials by 
+matching their text request with the pre-definedmaterials.  The learning process followed a strict flowthat  helped students to master 
+the pre-defined target knowledge. Their study found that students learning with the chatbot revealed a higher level of interest in 
+learning and perceived a lower level of stress as the chatbot did not impose stress on students like a human tutor did. However, the 
+design of the techniques that are needed to answer students’ questions or to talk with students in a book talk activity is a complex 
+challenge. To overcome this challenge, the study by Han and Lee (2022) used the FAQ for a MOOCs website as the training data to infer 
+FAQ answers from students’ questions while applying the DialogFlow platform to develop a FAQ chatbot. However their study found 
+that students who used the chatbot FAQ perceived a higher level of barrier and indicated a lower level of intention to use the FAQ than 
+those using the traditional webpage FAQ. Such results may be partially attributed to the inability of the chatbot to provide satisfactory 
+answers due to the limitation of the knowledge that the chatbot obtained from the training data. 
+    The current study thus aimed to understand how natural language processing techniques can be used with the current chatbot 
+development platform to build the intelligence of a chatbot such that it can provide deeper content interaction. The book talk activity is 
+a social activity in which students’ engagement may be largely influenced by the teacher. The chatbot that is developed with AI 
+techniques may have its limitations in supporting human-like interaction with students, although it can provide intelligent feedback in 
+some aspects. In the literature, Kramer¨  et al. (2016) found that human-like rapport behaviors have a significant effect on students’ 
+learning performance. Students were more likely to put in more effort to solve problems when accompanied by an agent demonstrating 
+such behaviors. Therefore, whether students perceive the chatbot as acting like a human teacher may influencetheir  participation in 
+the book talk activity. This study thus also attempted to understand how students develop social connection with the chatbot and its 
+impact on their reading interest and engagement. 
+
+3.  The chatbot 
+
+    The chatbot was designed to accompany students to read English books that they could freely select from 157 books prepared by the 
+researchers. The chatbot was designed based on the Google Actions Console framework. However, the module that processes the 
+students’ dialog input, the generation of the responses of the chatbot, and the control of the conversation strategies were developed 
+specificallyfor  this study. This study attempted to develop a chatbot with a certain level of anthropomorphic features. The chatbot was 
+expected to create a book talk atmosphere in which students felt that they were talking with a human companion rather than inter­
+acting with a machine. The chatbot was developed to fulfillthe  objectives of the social chatbot with the following activity setting and 
+AI techniques:  
+
+ ●  Students were told they would talk with Sister Fish in a chatroom without mentioning that Sister Fish is a computer chatbot. Sister 
+    Fish resembled how a human companion interacts with others in a text-based chatroom. For instance, although the chatbot could 
+    produce responses to students’ dialog input within mini-seconds, the responses from the chatbot were purposefully delayed to 
+    mimic the typing speed of a human companion. Furthermore, when talking with a student, Sister Fish would recite the prior book 
+    talk experience with the student. With such arrangements, we hoped to avoid mechanical reactions that would make the students 
+    immediately sense that Sister Fish’s responses were generated by a computer program.  
+ ●  The chatbot had basic understanding of the books: co-reference resolution (Jurafsky & Martin, 2020; Sukthanker et al., 2020) and 
+    dependency   parsing techniques  (Dozat &  Manning,   2018)  were employed   to extract the main   components   of the stories. 
+    Co-reference resolution aims at findingall  mentions or expressions that refer to the same entity in a text. It is a key component of 
+    natural language understanding because people often use a shorter referent to avoid using repeated mentions in adjacent contexts. 
+    To understand  text, natural language processing systems  need  to build a discourse model  to evoke (when   a referent is first 
+    mentioned in the text) and access (for subsequent mentions) entities in the text incrementally. There are many types of references 
+    that can occur in languages, for example, definite/indefinitenoun  phrases, pronouns, and names. The early study of co-reference 
+    resolution depended on some hand-crafted rules. With the inception of deep learning, we have seen a shift from hand-crafted 
+    features to deep learning-based approaches. Recent development of the technique can be found in the review by Jurafsky and 
+    Martin (2020) and Sukthanker et al. (2020). In our study, we adopted AllenNLP to parse each sentence and obtain co-reference 
+    clusters. By counting the number of times each entity is mentioned in a book, we can identify the main characters of each book. 
+    In addition, the dependency parsing technique was applied to parse the sentence structure of each sentence of the books so as to 
+    understand the actions that the main characters performed in the book. Dependency parsing is one of the main methods for syntax 
+    analysis, and is used to determine how the words are arranged together. The technique examines the dependencies between the 
+    phrases of a sentence in order to determine its grammatical structure. The internal structure of the dependency parsing consists of 
+    directed relations between lexical items in the sentence. These head-dependent relations provide important information to the 
+    semantic relationship between predicates and their arguments. These head-finding rules were applied to distill such information 
+    from the parse trees of each sentence. Therefore, we used the dependency parsing module in AllenNLP (Dozat and Manning, 2018) 
+    to identify the actions that characters performed. 
+
+    Based on the information, the chatbot can have basic understanding of the main characters and the actions of these characters and 
+then prompt three main storyline questions to encourage students to share what they read in the book. It should be noted that these 
+questions not only invited students to share what they had read, but also demonstrated that the chatbot had basic understanding of the 
+book. This study used the two techniques to process 157 books that were prepared for this study, and were provided to students for free 
+reading. It was hoped that the students could feel that the chatbot had read the same books as them. The main questions are listed in 
+Table 1:  
+
+ ●  The chatbot provided book talk cues to facilitate the book talk: The chatbot responded to students’ words about the story the 
+    children had read and  prompted  questions based  on the talk strategies listed in Table 2. This study applied the conversation 
+    strategies applied by Kurishita (2020) since these strategies are critical to encourage students to express what they have read in the 
+    book. The cues include narrative invitation (opener), acknowledgement (rejoinder), repeat (shadowing), and expansion sugges­
+    tions (follow-up question). This study especially added two additional strategies that can be fulfilled by the co-reference and de­
+    pendency parsing techniques: storyline questions and follow up. The former prompted the storyline questions as seen in Table 1 and 
+    the latter followed students’ narrative to tell the story.  
+ ●  The chatbot provided social affective cues and connected with students: In addition to the book talk cues that invited narrative of 
+    the stories, the chatbot also provided social affective cues to create a positive book talk experience. At the beginning of the book talk 
+
+Table 1 
+The main storyline questions asked by the chatbot.  
+
+  Characters The chatbot tells who it saw in the book   I read this book and I saw there were Cinderella and the Prince in the book. What did they do 
+                                                        in the book? 
+  Actions    The chatbot tells what the characters did in the I noticed Cinderella went to a ball. Can you tell me what happened? 
+             book 
+  Dialog     The chatbot mentions parts of conversations in the I remember they said … What else did they say?  
+             book. 
+
+Table 2 
+The book talk cues applied by the chatbot.   
+
+                                  Definition                                       Example 
+
+ Book talk invitation (Opener)    The chatbot invited students to share what they  Hi, let’s talk about the book! 
+                                  had read. 
+ Storyline Question               The chatbot prompted the students with           See Table 1. 
+                                  questions about the main storyline 
+ Acknowledge (Rejoinder)          The chatbot acknowledged students’ narratives.   Oh! I got it! 
+ Repeat (Shadowing)               The chatbot repeated what students said.         After the student said, “She put on her dress,” the chatbot repeated 
+                                                                                   “Cinderella put on her beautiful dress.” 
+ Follow up                        The chatbot followed students’ narrative to tell After the student said, “She put on her beautiful shoes,” the chatbot 
+                                  the story.                                       followed up with, “Now I can go to the ball, she said.” 
+ Expansion suggestion (Follow-    The chatbot suggested expanding the narrative.   Please tell me more about what happened next.  
+     up question) 
+
+
+Table 3 
+The social affective cues applied by the chatbot.  
+ Personalized            The chatbot recited the book talk experience with the student        Last time we talked about the book Cinderella. What did you 
+ greeting                                                                                     read today? 
+
+ Praise                  When the chatbot located what students mentioned in the book, it     Good job! 
+                         praised students. 
+ Asking feeling          The chatbot asked students their feelings about the book they had read. How do you like the book? 
+ Feeling sharing         The chatbot shared feelings about the book.                          That’s great! My feeling about this book is that … 
+ Recommendation          The chatbot recommended books to students                            I found the book, Cinderella, interesting and want to 
+                                                                                              recommend it to you!  
+
+   with a student, the chatbot recited the recent book talk experience with this student. During the book talk, the chatbot would praise 
+   students’ responses when it detected what they mentioned in the book; it would praise students with positive words. It also asked 
+   students their feelings about the books they had read. Using the database that records students’ responses to the questions, the 
+   chatbot would also pull up the feeling descriptions that other students had expressed to echo the students’ feeling expression. At the 
+   end of the book talk, the chatbot also recommended similar books to students. The social affective cues are summarized in Table 3. 
+
+
+                        Fig. 1.  One student interacting with the chatbot in the text-based chatroom while reading a book.  
+
+    The book talk was carried out in an ordinary classroom with a text-based chatroom on iPads (see the left of Fig. 1). The chatbot was presented as an individual in the text-based chatroom. Students read paper-based books and could refer to the book they read when they were interacting with the chatbot (see the right of Fig. 1). Voice-based chat was not applied in this study due to the background noise problem which interferes with the speech-to-text accuracy. Students typed in their utterances to interact with the chatbot. The chatbot wrote out its response in text, and also orally verbalized each word of the text. 
+
+4.  Method 
+
+4.1. Participants 
+
+    The participants were 68 fifth-gradestudents  in an elementary school in northern Taiwan, aged between 11 and 12. They were from three intact classes. They participated in the reading class to read English books in school. The students were EFL learners who had started learning English as a foreign language from Grade 1. Therefore, they had been learning English for 5 years. Although they were still in the initial stage of learning English with the focus on vocabulary and sentence patterns, preparing them for reading English books is one of the educational goals of school education. 
+
+4.2. Experiment procedure 
+
+    Fig. 2 displays the experiment procedure of this study. Two of the three classes were assigned as the experimental group which interacted with the chatbot, Sister Fish, after reading the books they chose based on their interest. The third class was assigned as the control group. The control group did not interact with the chatbot after reading the books. In the first week of the experiment, the teachers  introduced the reading  activities and students experienced  the activity for 80 min. The  experimental  group  had  the opportunity to interact with the chatbot. However, the book talk data with the chatbot was not collected and analyzed as students were familiarizing themselves with talking with the chatbot. The three classes then participated in the reading activity, and data were collected for the following 6 weeks (week 2–7). 
+    The reading activity of this study is a typical implementation of an extensive reading activity (Yamashita, 2013). In other words, a variety of reading materials were provided and students could choose what they wanted to read and read at their own pace without pre-set time constraints. It was hoped that the reading activity could trigger and maintain students’ interest in reading. The reading activity lasted for 80 min each week. During the reading activity, English paper-based books were provided for students since they are easily accessible in the classroom environment. These books involve simple stories and were chosen considering that the participants were English beginner readers. 
+    Students could choose any book they liked to read. During the reading activity, the teacher led a whole class book talk activity and encouraged students to share what they had read. After the reading activity each week, the teacher instructed the students to answer the flow perception questionnaire. Therefore, six sets of flow perception data were obtained for each student. The students of the experimental group talked with the chatbot about the book they had read after the reading activity. This study collected the in­teractions between the students and the chatbot for the experimental group. Then, the students answered the Godspeed questionnaire to understand how they perceived the chatbot after the book talk activity. Therefore, six sets of their perceptions of the chatbot were also obtained for each student of the experimental group. The data for the two groups’ interest in reading after the reading activity were also collected and analyzed to understand the impact of the reading activity. 
+
+4.3. Instruments 
+
+    This study collected students’ engagement   in the reading  activity for both the control and experimental  groups.  Students’ engagement was obtained through a flow questionnaire since students’ engagement shares similar attributes as flow perception. A previous study by Liu et al. (2016) used a flowquestionnaire  to probe students’ sense of control, curiosity, interest, and attention with four questions on a 5-point Likert scale (5 for highest and 1 for lowest). For instance, to probe students’ attention to the activity, the questionnaire included a question “During the reading activity today, I feel that I can be fully concentrated.” This study thus adopted this flowquestionnaire  to understand students’ sense of engagement in the reading activity. The students answered the questionnaire right after the reading activity in each of the 6 weeks. The reliability (Cronbach’s alpha) of the flowquestionnaire  for this study was 0.83, indicating that the questionnaire was sufficientlyreliable.  Students’ responses to the four questions were averaged to obtain their flow perception during the reading activity. 
+    One of the objectives of this study was to understand the social connection between the students and the chatbot after the book talk between them. A previous study by Bartneck et al. (2008) developed the Godspeed questionnaire using the semantic differential scales to represent  individuals’ perceptions of robots in terms  of anthropomorphism,   likability, animacy, perceived intelligence, and perceived safety dimensions. In each dimension, a set of questions with semantic differential scales was included to elicit individuals’ perceptions of their interaction with robots. For instance, the anthropomorphism dimension included a question item on a 5-point scale with the pair of “machinelike” and “humanlike” (1 for machinelike and 5 for humanlike) to represent whether the interaction with chatbot  resembled  that with humans.  This study  included three dimensions  of the Godspeed  questionnaire: anthropomorphism, likability, and perceived intelligence, as these dimensions are closely related to the interaction between the chatbot of this study and the students. The anthropomorphism dimension included seven questions, likability included five questions, and perceived intelli­gence included fivequestions.  Students’ responses to the questions in each dimension were averaged to represent the perceived social connection level in that dimension. The reliability (Cronbach’s alpha) of the Godspeed questionnaire for the three dimensions obtained from weeks 2–7 was at least 0.87, indicating that the questionnaire was highly reliable. 
+    This study also investigated how the interaction with the chatbot impacted students’ situational interest in extensive reading. To achieve this goal, students’ situational reading interest was collected by a situational interest questionnaire based on the questionnaire developed by Linnenbrink-Garcia et al. (2010). The situational interest questionnaire involves both triggered situational interest and maintained situational interest. Triggered situational interest (Triggered-SI) involves whether the object, activity, or event that an individual engages with grabs the student’s attention. Example questions include “I enjoy coming to the reading activity.” On the other hand,  the maintained  situational interest (Maintained-SI) involves the feeling aspect and  the value aspect. The  feeling aspect (Maintained-feeling) depicts the extent to which the object, activity, or event that an individual engages with was enjoyable and engaging. An example question is “I feel excited when reading English books.” On the contrary, the value aspect (Maintained-value) reveals whether the object, activity, or event is viewed as important and valuable. An example question is “I think reading English books is useful for me.” This original questionnaire was developed to understand students’ situational interest in academic domains. This study includes questions from the original questionnaire which were adapted according to the reading context to understand students’ situational interest in the reading activity. 
+    The  questionnaire includes four  questions in the Triggered-SI  dimension,  four in Maintained-feeling, and  another  four in Maintained-value. The questionnaire was conducted before and after the reading program to understand the overall impact of the reading program. The reliabilities (Cronbach’s alpha) of the questionnaire for each of the three dimensions for the present study were at least 0.85 (ranging from 0.85 to 0.93), indicating that the adapted questionnaire was sufficientlyreliable.  Students’ perceptions of the reading  activity and their social connection to the chatbot were  measured   by the flow, Godspeed,  and  situational interest questionnaires. 
+
+4.4. Data analysis 
+
+    This study involved a variety of variables including students’ sense of engagement, social connection, interest in reading, and conversation data. Therefore, a mixed-methods approach (Creswell &    Plano Clark, 2011) was adopted to achieve a more compre­hensive and holistic understanding of how students engaged in the talk with the chatbot and how students perceived the experience. The mixed-methods approach integrates quantitative and qualitative data to supplement the interpretation of different data types and can reveal different aspects of language learning in social settings which involve complex data types (Huang et al., 2017). 
+    Multiple data sources were collected throughout the reading activity. All statistical analyses of these data sources were performed using SPSS 25.0. First, the interaction between the chatbot and students in the experimental group was collected. This study collected six dialog episodes for each student. Students’ dialog with the chatbot in weeks 2–7 were analyzed by two coders. To answer the research question RQ1, two coders categorized each utterance students expressed according to a story structure: characters, actions, consequence, and causal relationship. The analysis was to understand how students narrated the stories they had read. The inter-coder reliability for 30% of the dialog episodes was .92 (Kappa), indicating acceptable reliability. 
+    Furthermore, the two coders also categorized the dialog episodes in week 2 and week 7 to understand the overall narration styles according to the length of the dialog and the content mentioned in the dialog. The data of these 2 weeks were sampled due to the large amount of data and the fact that they represented different stages of participation in the reading activity. The inter-coder reliability for the categorization of the dialog episodes was at least 0.70 (Kappa), suggesting appropriate reliability. 
+    To understand how students developed the social connection with the chatbot, students’ responses to the Godspeed questionnaire were analyzed to understand their perceptions of the interaction with the chatbot. To understand the impact of the interaction with the chatbot on students’ interest and engagement in the reading activity (RQ2), this study applied ANOVA with repeated measures to compare the control and experimental groups’ situational interest in reading before and after the reading activity. Interacting with the chatbot or not served as the between-subjects factor. The ANOVA with repeated measures can identify whether there was a significant difference in change of situational interest between the control and experimental groups. 
+    Furthermore, students in both the control and experimental groups participated in the reading activity for 6 weeks and answered the flowquestionnaire  right after the reading activity. Control and experimental group students’ flowperceptions  in the 6 weeks were averaged and compared with an independent t-test to display the students’ overall engagement in the 6-week reading activity. The weekly flowperception   data were also analyzed with ANOVA with repeated measures to understand whether students’ engagement in the reading activity evolved according to different patterns. 
+    To understand the role which perceived social connection with the chatbot played in students’ engagement and situated interest in extensive reading (RQ3), this study analyzed the relationship between these constructs. Since the students’ engagement in the reading activity and their perceptions of the social connection were temporal data, this study averaged students’ responses to the two ques­tionnaires for the 6 weeks to represent their overall engagement in the reading activity and their overall perceived social connection with the chatbot. The overall correlation was analyzed with Pearson correlation to display the relationship between the two constructs. 
+    Furthermore, this study collected the pre- and post-interest in reading before and after the reading activity. Due to the temporal nature, this study analyzed the correlation between students’ pre-interest in reading and their perceptions of the perceived social connection with the chatbot in the 2nd week to better understand the relationship between their reading interest and the perceived social connection at the initial stage of the reading activity. The correlation between students’ post-interest in reading and their perceptions of the social connection with the chatbot in the 7th week was also analyzed. It was hoped that the analyses could help understand not only students’ perceptions of the interaction with the chatbot and the impact of the chatbot on their engagement and interest in the reading activity, but also the role of the interaction with the chatbot in reading interest and engagement. 
+    This study also conducted open-ended interviews to understand the implications of the quantitative data and to further explore students’ reactions to the talk with the chatbot. Therefore, the interview questions included three main aspects: the conversation experience, students’ feelings about the chatbot, and the impact of the conversation on their reading. Sample questions include “Do you think Sister Fish is a human  or a machine? Why?”    (feeling for the chatbot), “Do you prefer talking with Sister Fish or your classmates? Why?” (feeling for the chatbot), “Do you get yourself prepared for the talk when you are reading a book? Why?” (impact of the conversation on reading), and “Did you encounter any difficulty when talking with Sister Fish?” (conversation experience). Stu­dents’ feedback on these questions may help us clarify both their reaction to the chatbot and the role of the chatbot in their reading. 
+
+
+                Table 4 
+                The statistics of the utterances based on the story structure.   
+
+                                                        N                         M                          SD 
+
+                  Character                             45                        4.87                       1.78 
+                  Action                                45                        4.95                       1.84 
+                  Consequence                           45                        0.22                       0.25 
+                  Causal relationship                   45                        0.82                       0.81  
+
+5.  Results 
+
+5.1. How students interacted with the chatbot and perceived social connection (RQ1) 
+
+    Table 4 displays the results of the content analysis of the dialogs that students had with the chatbot. Students tended to describe the characters and actions of these characters. On average, in each dialog episode students used 4.87 and 4.95 utterances to describe the characters and their actions, respectively. In comparison, they used fewer utterances to describe the consequences of the actions and the causal relationships in the story. 
+    The chatbot applied diverse book talk and social affective cues to facilitate the book talk activity. Table 5 shows one example of a dialog between a student and the chatbot. As shown at the beginning of the dialog, the chatbot brieflysummarized  the main characters of the book and applied the storyline question to invite the student to narrate the story after he indicated the book he wanted to talk about (line 0). Then the student started to share what he had read in the book (line 1–11) during which the chatbot acknowledged the student with different common phrases and invited him to expand the narrative. Then the chatbot told the student that one of the characters used a mirror to look at Nancy’s mouse in line 12 while applying again the storyline question cue. Following these cues, the student continued to narrate this story and the chatbot acknowledged and encouraged him to narrate the story (lines 13–19). The chatbot then applied the asking feeling cue to ask the student whether he liked the book (line 20). When the student responded to this question (line 21), the chatbot also shared its feeling about the book and asked the reason why the student liked this book (line 22). 
+    The dialog episode listed in Table 5 is an example of a full narrative style dialog between a student and the chatbot. In this style of narrative, the student described the main storyline of the story. Our analysis found 58 (64%) such dialog episodes among the 90 episodes collected in week 2 and week 7. In other words, a majority of the students could narrate the story they read with the chatbot with sufficiently detailed descriptions. 
+    Other styles of dialog episodes are displayed in Table 6. There were two students who only cited the original text in the book they read  while interacting with the chatbot. Many  students (23) briefly narrated the story they read, meaning  that they only told a simplified story, ignoring some important parts of the storyline. Four students only described the main characters mentioned in the book, representing the character-based style of dialogs. Three students mainly described the events mentioned in the book without describing the characters (action-based style). 
+    This study applied the Godspeed questionnaire to understand how students perceived the social connection with the chatbot in terms of anthropomorphism, likeability, and intelligence. Table 7 shows students’  responses to the questionnaire for the three di­mensions. Overall, students perceived a high level of social connection (M =  4.08, SD = 0.73) with the chatbot. Among the three dimensions, students perceived high levels of likeability (M = 4.13, SD = 0.78) and intelligence (M = 4.18, SD = 0.69), but a relatively lower level of anthropomorphism (M =    3.91, SD = 0.82). 
+    The interview with students found that they perceived the chatbot as intelligent since they thought that it had read the books they had read. One student indicated that, “I felt Sister Fish knows many books. She had read almost all the books.” This may be due to the knowledge base extracted by the co-reference resolution and dependency parsing techniques. Another student indicated, “Sister Fish is very smart because she responded to every word I said very quickly.” Through the use of the two techniques, students felt that the chatbot knew the main characters and important actions taken by the characters in the book. 
+
+Table 5 
+An example of a dialog episode between a student and the chatbot.    
+
+                                                  Dialog 
+
+  0                     Chatbot                   I found that there are Nancy and Teddy in the story. Let’s talk about what these characters do! 
+  1                     Student                   They went to the dentist. 
+  2                     Chatbot                   I got it! What then? 
+  3                     Student                   The doctor checked his teeth. 
+  4                     Chatbot                   Oh! I understand! Is there anything else in the story? 
+  5                     Student                   The doctor helped him brush his teeth. 
+  6                     Chatbot                   I see. Is there any more? 
+  7                     Student                   The doctor helped her brother check his teeth. 
+  8                     Chatbot                   Oh oh! I know what you mean; what’s next in the story? 
+  9                     Student                   The doctor taught them how to brush their teeth. 
+  10                    Chatbot                   So that’s it; is there anything else to mention next? 
+  11                    Student                   No! 
+  12                    Chatbot                   I found that in the story, she used a small mirror to look at Nancy’s mouth; tell me what happened! 
+  13                    Student                   I saw it! 
+  14                    Chatbot                   I know what you mean; what else is next? 
+  15                    Student                   And she was hugging her doll. 
+  16                    Chatbot                   Oh oh! I understand; what else is said next in the story? 
+  17                    Student                   Her father was helping her brother brush his teeth. 
+  18                    Chatbot                   Oh oh! I understand, what else is said next? 
+  19                    Student                   No. 
+  20                    Chatbot                   Oh! You are familiar with this book! Do you like this story? 
+  21                    Student                   Yes! 
+  22                    Chatbot                   I like this story too! Many parts of the book impressed me! Share with me why you like this book. 
+  23                    Student                   Because it is a pop-up book and very beautiful.  
+
+Table 6 
+The distribution of the narration styles of week 2 and week 7.  
+
+  Style                   Definition                                                                           Number (percentage) 
+
+  Full narratives         Students told the main storyline from the beginning to the end.                      58 (64%) 
+  Original text           Students re-told the text in the book.                                               2 (2%) 
+  Simplified              Students only told the simplified story, ignoring some important parts of the storyline. 23 (26%) 
+  Character-based         Students mainly described the characters of the book.                                4 (4%) 
+  Action-based            Students mainly described the events mentioned in the book without describing the characters. 3 (3%)  
+
+
+                Table 7 
+                Students’ responses to the Godspeed questionnaire.   
+
+                                                        n                         M                          SD 
+
+                  Anthropomorphism                      45                        3.91                       0.82 
+                  Likeability                           45                        4.13                       0.78 
+                  Intelligence                          45                        4.18                       0.69 
+                  Overall                               45                        4.08                       0.73  
+
+    Students also perceived a high level of likability when interacting with the chatbot. This may be because the chatbot adopted a positive tone to interact with them. Students considered interacting with the chatbot as a positive experience. One student indicated, “Sister Fish asked how I felt about the book.” Another student expressed “I am happy that somebody talked with me about the book I read.” The high level of likability may also be because the chatbot avoided the social pressure caused by human companions. One of the students indicated, “If I said something wrong, Sister Fish would not laugh at me.” Another student also indicated, “She is always encouraging and did not say anything to make me uncomfortable.” Therefore, the chatbot may create a positive atmosphere and avoid social pressure as it was designed to adopt a positive tone to interact with students. 
+    However, students expressed diverse feelings about the anthropomorphism of the chatbot. One of the students indicated, “I felt that Sister Fish is a real human since she remembered the book that I talked about with her.” Therefore, the personal greeting that recited the book talk experience largely improved the sense of anthropomorphism. The intelligence extracted by the AI techniques was also helpful to promote the sense of anthropomorphism. One of the students indicated that, “It seems that she knows almost all the books we read.” However, some other students also considered that the chatbot’s intelligence did not seem real. One of the students indicated, “She knows too much. She knows almost everything.” One student thought, “Sister Fish’s responses do not vary” and therefore he thought  the chatbot was  a robot. Due  to the diverse feelings, students’ feedback on the Godspeed  questionnaire only showed   a moderate level for the anthropomorphism dimension (3.91). 
+
+5.2. The impact of the chatbot on engagement and situational interest in reading 
+
+    In order to compare the experimental group students’ change in their situational interest with the control group, a 2 × 2 between- within  mixed  design factorial ANOVA  was  utilized. Before running this two-way  repeated measure  ANOVA,   two  assumptions  of normality and sphericity (homogeneity) should be met. Regarding the normal distribution, as reported in Table 8, the skewness and kurtosis indicated ranged from � 0.972 to � 0.203 and - 0.776 to 0.468, respectively. The data for the scales were distributed normally given  the skewness and  kurtosis values ranging between  +2.0  and  � 2.0 (Gravetter & Wallnau,  2014). As for the assumption  of sphericity, because there were only two levels of repeated measures in this design, there is only one set of difference scores and nothing with which to compare those difference scores. Following Field’s (2003) recommendations, if a repeated-measures variable t has only two levels, then sphericity is met. In other words, the pre- and post-scores for each scale are homogeneous. 
+    The ANOVA analysis with repeated measures of students’ situational interest found that the experimental and control groups did not show different changes in their triggered interest. As shown in Table 8, both groups’ triggered interest decreased after the 6-week reading  activity, but showed a  slight level of increase in their maintained-feeling interest. However, the two groups showed   a 
+
+Table 8 
+The repeated measure analysis of situational interest.   
+
+                                  Experimental group         Control group              Skewness     Kurtosis    F           p 
+
+                                  N       M        SD        N       M        SD 
+
+  Triggered-Interest    Pre-      45      4.11     0.68      23      3.90     0.86      � 0.753      0.291       .788        .378 
+                        Post-     45      3.99     0.78      23      3.59     1.04      � 0.544      � 0.079   
+  Maintained-Feeling    Pre-      45      3.62     0.92      23      3.50     1.08      � 0.840      0.387       .021        .885 
+                        Post-     45      3.76     0.96      23      3.60     1.02      � 0.550      � 0.014   
+  Maintained-Value      Pre-      45      3.75     0.94      23      4.03     0.91      � 0.972      0.453       4.288*      .042 
+                        Post-     45      3.67     0.92      23      3.47     0.97      � 0.203      � 0.776   
+  Maintained (Overall)  Pre-      45      3.74     0.82      23      3.61     1.20      � 0.886      0.468       .000        .997 
+                        Post-     45      3.74     0.90      23      3.61     1.20      � 0.499      0.154    
+
+significantlydifferent  change in their maintained-value interest (F = 4.288, p < .05). While the maintained-value of the control group decreased after the 6-week activity from 4.03 to 3.47, the experimental group maintained a similar level of value after the activity. The results reflect that book talking with the chatbot after reading was helpful for maintaining their situational interest in the value dimension. 
+    In the interview, some students indicated that the chatbot helped them read the books when they were not confident in under­standing them. One of the students indicated, “When you only know the rough story of the book, you could talk with Sister Fish. She would tell you what is correct.” This means that students thought the chatbot helped them understand the story of the book they read. Another student also indicated that the chatbot “helped him understand many words.” The two students’ feedback support that the chatbot played the role of a teacher who helped them understand the meaning of some English words and the story of the books. Meanwhile, the chatbot also played the role of a guide who gave students hints to re-read the book to capture the important storyline of the book. One student indicated that, “Sister Fish would tell me what she saw at the beginning of the book. Then, I would go back to those pages to see what happened at the beginning of the book.” Students’ feedback supported that they would achieve a higher level of understanding of the story, explaining the reason why they maintained the value of reading books. 
+    The control and experimental group students’ flow perceptions from the 2nd to 7th week were averaged and compared with in­dependent t tests to understand the students’ overall engagement in the 6-week reading activity. Table 9 displays the overall flow perception for the experimental and control groups. The two groups of students overall did not perceive significantlydifferent  levels of flow perception   in the reading activity. The weekly flowperception  data were also analyzed with ANOVA with repeated measures to understand whether students’ engagement in the reading activity evolved according to different patterns. The ANOVA analysis with repeated  measures  showed   that there was  no significant difference in the experimental  and  control groups’ flow  perceptions throughout the 6-week reading activities (Table 10). The two groups’ flow perceptions did not change significantly throughout the reading  activities. In other words, interacting with the chatbot did not significantly impact students’ engagement in the reading activity. 
+    Students who talked with the chatbot after the reading activity did not show a significantly different engagement pattern from those who did not interact with the chatbot throughout the 6-week activity. The interview with students found that they generally read the book as they did before without paying particular attention to what to talk about with the chatbot, although some students would read the book carefully to understand the main storyline of the book in order to talk with the chatbot. As a consequence, the flow perceptions during the reading activity perceived by the experimental and control groups were similar. 
+
+5.3. The relationship among social connection perception, engagement, and interest 
+
+    This study further analyzed the role of the interaction with the chatbot in students’ engagement in the reading activity and its relation to their interest in reading. Students’ weekly response to the Godspeed questionnaire and their responses to the flow ques­tionnaire were analyzed with the Pearson correlation. Table 11 displays the overall correlation between students’ flowperception  and their perceptions of their social connection with the chatbot. The results reveal that the two constructs were significantlycorrelated.  In particular, students’ social connection perceptions for the chatbot were closely related to their sense of curiosity and interest. In other words, students were more likely to perceive a positive relationship with the chatbot when they had deep interest and curiosity in the books they read. 
+    Students’ interest in reading was analyzed with their social connection perceptions. As shown in Table 12, students’ pre-interest was  significantly correlated with their social connection perception in the first week. In particular, likability was significantly correlated with both triggered situational interest and maintained situational interest. In other words, students who had higher levels of reading interest were more likely to feel that the chatbot was friendly and to like the chatbot. After the students interacted with the chatbot  for 6 weeks, their social connection perceptions in the last week were significantly correlated with their post-interest in reading. As shown in Table 13, the three dimensions of the Godspeed questionnaire were all positively correlated with both Triggered- SI and Maintained-SI. Such change in the correlation of the two constructs reflect that as students continuously interacted with the chatbot, the interaction experience may have been closely related to their reading interest in both triggered and maintained aspects at a higher level than it was at the early stage. The results support that the interaction played an important role in maintaining students’ interest in reading. 
+
+Table 9 
+The independent t-test of the flow perceptions between the experimental and control groups.   
+
+                     Experimental group                         Control group                              t                p 
+
+                     N            M              SD             N            M              SD 
+
+  Attention          41           4.13           0.82           21           4.03           0.68           � 0.456          0.650 
+  Control            41           3.29           1.04           21           3.34           1.11           0.184            0.855 
+  Curiosity          41           3.65           1.09           21           3.52           1.09           � 0.460          0.647 
+  Interest           41           3.87           1.13           21           3.61           1.10           � 0.878          0.384 
+  Flow               41           3.74           0.79           21           3.63           0.81           � 0.510          0.612  
+
+
+                                                                12
+C.-C. Liu et al.                                                                                                                                                                     Computers                 &   Education                189  (2022) 104576
+
+Table 10 
+The repeated measure analysis of the weekly flow perceptions.   
+
+                    Experimental group                          Control group                               F                P 
+
+                    N            M               SD             N             M              SD 
+
+  Week 2            41           3.70            .91            21            3.43           .81            1.588            .168 
+  Week 3            41           3.73            .89            21            3.74           .87            (H–F)  
+  Week 4            41           3.73            .98            21            3.64           .89   
+  Week 5            41           3.79            1.02           21            3.49           1.01   
+  Week 6            41           3.49            1.14           21            3.71           .98   
+  Week 7            41           3.98            .94            21            3.74           1.00    
+
+
+Table 11 
+The correlation between students’ flow perception in reading and their perceptions of their social connection with the chatbot (N = 42).   
+
+                             Anthropomorphism                   Likeability                Intelligence                 Overall 
+
+  Attention                  r = .173                           r = .375*                  r = .274                     r = .286 
+  Control                    r = .223                           r = .212                   r = .211                     r = .224 
+  Curiosity                  r = .651**                         r = .650**                 r = .635**                   r = .673** 
+  Interest                   r = .643**                         r = .672**                 r = .624**                   r = .674** 
+  Overall                    r = .575**                         r = .634**                 r = .585**                   r = .623** 
+
+*p < .05; **p < .001. 
+
+
+Table 12 
+The correlation between students’ pre-interest in reading and their social connection perception in the first week.   
+
+                                Anthropomorphism                  Likeability                Intelligence                Overall 
+
+  Trigger-SI                    r = 0.369                         r = .599**                 r = .374                    r = .467* 
+  Maintained-SI                 r = 0.367                         r = .531**                 r = .202                    r = .398 
+
+**p < .001. 
+
+
+Table 13 
+The correlation between students’ post-interest in reading and their social connection perception in the last week.   
+
+                               Anthropomorphism                  Likeability                Intelligence                Overall 
+
+  Triggered-SI                 r = 0.534**                       r = .559**                 r = .562**                  r = .582** 
+  Maintained-SI                r = 0.600**                       r = .591**                 r = .638**                  r = .644** 
+
+**p < .001. 
+
+6.  Discussion and conclusions 
+
+    This study explored the possibility of using a chatbot equipped with AI techniques as a book talk companion with the aim of enhancing the reading experience. The results of this study confirmedthat  the chatbot was helpful for creating a positive interaction experience and for maintaining students’ reading interest. Students perceived a high level of social connection with the chatbot in terms of its anthropomorphism, intelligence, and likability. Book talking with the chatbot after reading was also helpful for main­taining students’ situational interest in the value dimension. It is worthwhile to note that after the 6-week interaction with the chatbot, students’ perceptions of their social connection with the chatbot were closely related to their engagement in the reading activity and correlated with both their triggered-situational interest and their maintained situational interest. 
+    The book talk dilemma coined by Eriksson (2002) pointed out the difficulty that teachers cannot cater to the needs of multiple students and talk with every student individually as students have different reading interests and reading pace. The findings of this study may shed light on how AI techniques can be used to enhance reading experience. This study showed that AI techniques may be used to extract key components of the story books including the characters, events, and dialogs. The chatbot of this study interacted with students based on these key components. Previous studies have indicated the positive impact of social interaction between readers and human peers or teachers (Cremin & Swann, 2016; Gunter & Kenny, 2008; Huang & Nathan-Roberts, 2019). This study found that students told the chatbot the story they had read to describe the characters and actions they read about in the book. Most of the students demonstrated a full narrative style while interacting with the chatbot. The findings of this study support that the chatbot developed with the AI techniques can be an alternative to facilitate the social reading practice. 
+
+    The positive impact of the chatbot may be attributed to two features: the book talk cues and the social affective cues. Regarding the book talk cue, the studies that applied Q&A cues asking students to answer language learning questions yielded positive effects on their learning achievement (Ayedoun et al., 2015; Chen et al., 2020; Lin & Chang, 2020; Mazzoni & Benvenuti, 2015). However, fewer studies have investigated what advanced conversational strategies are necessary to engage students in book talk. Along this line, Kurishita (2020) confirmedthat   the conversation strategies such as opener, closer, fillers,shadowing,  and following-up may serve as prompts to engage students in in-depth book talk (Kurishita, 2020). Our study found that the AI techniques of co-reference resolution and dependence parsing could be used with Kurishita’s basic strategies to guide students to engage in in-depth book talk. This study found that the storyline questions extracted by the AI techniques acted as a promoter helping students narrate the important storyline in terms of the characters and events, and thus enriched the content of the book talk. 
+    Regarding the social affective cues, previous studies have suggested that a chatbot with rapport behaviors is more likely to create a positive social experience attracting students to continuously engage in the learning activity (Kramer¨  et al., 2016). The chatbot of this study applied several social affective cues to build connections with students including personalized greeting, praise, asking about feelings, feeling sharing, and recommendation. This study contributes to understanding how students react to and perceive AI chat­bots. By the use of the Godspeed questionnaire, this study found that students perceived a high level of social connection with the chatbot, in particular in the dimension of likeability and intelligence. The results may be attributed to the social affective cues and the AI techniques that extract the key components of the story books. Students in the interview suggested that the use of the encouraging words and personal greeting promoted the level of social connection. Educators and chatbot designers may consider these social af­fective cues helpful to create a positive book talk experience. 
+    Previous studies regarding the use of chatbots in reading (Michaelis & Mutlu, 2017, 2018; Xu et al., 2021) confirmedthat  students would achieve a higher level of understanding of the story, and the chatbot can extend the time that students devote to reading. It should be noted that the student-chatbot interaction in the two studies was based on the pre-programmed comments or questions. The chatbot of the present study involved the use of AI techniques for understanding the books that students were reading, and thus could provide content interaction based on AI techniques and a conversation strategy to use the results obtained from the techniques. Our results suggest that students talking with the chatbot implemented with the AI techniques maintained a stable level of perceived maintained-value toward reading throughout the 6-week reading activity, while the maintained-value of those who did not talk with the chatbot decreased significantly. 
+    The findingsof  this study echo prior studies suggesting that chatbots may maintain students’ interest in learning and can improve students’ motivation to learn (Laeeq & Memon, 2019). From students’ feedback in the interview, the positive effect on the maintained situational interest may be partially because students achieved a higher level of understanding of the stories as the chatbot would provide prompts that were directly related to the key storyline of the book. Students achieved a better understanding through narrating the main theme of the story and thus perceived the value of reading. However, the study also found that talking with the chatbot after reading did not significantly impact student engagement in the reading activity. 
+    A previous study by Fryer et al. (2017) reported how students engaged in language learning when they interacted with a robot. Their findings do not support the longstanding effect regarding the motivational benefits of chatbots. Their follow-up study confirmed that  language competency was strongly linked to interest in interacting with chatbots. However, the P correlation analysis of this study found that students’ social connection perceptions for the chatbot were significantlyrelated  to their interest and curiosity perception during the reading activity. On the contrary, a correlation between the sense of easiness of reading English books (that is, the control dimension of flow perception) and social connection perceptions was not found. In other words, whether students can make a close social connection with the chatbot is related to whether the story arouses their curiosity and interest, and not whether they have a high level of reading skill for understanding English stories. The results may be partially due to the feature of free extensive reading activity in which students were not assigned a pre-set reading requirement. Under such a condition, students were more likely to read the books that they wanted to read, and students could make a close social connection with the chatbot if they felt curious and interested in these books. 
+    Furthermore, the correlation analysis also found temporal change in the relation between students’ interest in reading and the social connection perception. During the firstweek  stage of the reading activity, students’ interest in reading was only correlated with the degree to which the chatbot was friendly and how much they liked it. However, in the latest week of the reading activity, students’ interest in reading was also correlated with their perceptions of the chatbot in the dimension of anthropomorphism and intelligence. In other words, students may have only been concerned with how friendly the chatbot was in the initial stage, but at the later stage, they were concerned with how the chatbot could interact with them intelligently like a human partner. 
+    The study demonstrated how chatbots can be used to accompany students while reading. Students showed high levels of perception of the social connections with the chatbot. AI techniques, specificallythe  co-reference resolution and dependency parsing techniques adopted in this study, played a critical role in guiding students to engage in the book talk activity. The chatbot implemented with the techniques demonstrated positive impacts on students’ reading interest, and the social connections played an important role in their interest and engagement in the reading activity. However, the findingswere  obtained based on the students’ engagement in the dialogs in a flowguided  by the chatbot. The findingsmay  not be over-generalized to other settings in which students and the chatbot play an equivalent  role and both can take  the lead in the dialog, as it involves more complicated conversation  moves. It would  also be interesting to understand how chatbots may facilitate the book talk activity in other social settings, for instance the chatbot as mediator to host the book talk activity of multiple students. This study also found that a limitation of the chatbot was that some students still considered that its responses were not anthropomorphic. This is because the main knowledge source of the chatbot was obtained through the natural language processing of the text of the book that the students read. Therefore, it would be worthwhile to collect the dialogs and apply machine learning techniques to train the chatbot to learn to respond to students’ dialog acts. Gathering information on these issues through further studies can help to obtain a thorough understanding of the use of AI techniques for developing students’ interest in reading in a broader context. 

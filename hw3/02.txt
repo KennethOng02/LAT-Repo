@@ -1,0 +1,610 @@
+Chatbot learning partners: Connecting learning experiences, interest and competence
+
+ARTICLE INFO
+Keywords:
+Chatbots
+Language learning                             
+Interest                                      
+Longitudinal
+Novelty
+Educational technology
+                                              
+ABSTRACT
+Conversation practice, while paramount for all language learners, can be diﬃcult to get enough of and very expensive. In this mobile age, chatbots are an obvious means of ﬁlling this gap, but have yet to realize their potential as practice partners. The current study was undertaken to examine why chatbots are not yet a substantial instrument for language learning engagement/practice, and to provide direction for future practice and chatbot development. To this end, building on a recent experimental study examining chatbot novelty eﬀects, students undertook a pair of conversation activities: human and human-chatbot (via speech-to-text software). Immediately following the practice conversations, students' interest in the two partners was surveyed and open-ended textual feedback was collected. With these data sources and prior standardised test results, regression and content analysis of the data was undertaken. Findings indicated: 1) prior interest in human conversation partners was the best single predictor of future interest in chatbot conversations; 2) prior language competency was more strongly linked to interest in chatbot than human conversations; 3) that the qualitative experience of having “learned more” with the chatbot was strongly connected to task interest, even when reporting communication diﬃculties. Implications for practicing languages with currently available chatbots, for chatbots and related educational technology as sources of student interest and directions for chatbots future development are discussed.
+
+1. Introduction                                                            supporting competence development, chatbots might also have a role in
+                                                                           supporting the kind of motivation students need to persist in language
+   Technology has and will continue to have a dramatic eﬀect on            learning (Fryer &  Carpenter, 2006). While the promise of chatbot
+teaching and learning. Perhaps more than any other aspect of educa-        technology for the language learning community has not yet been fully
+tion, advances in technology have opened doors for language-learners.      realised, their presence on the Internet continues to grow faster than
+From  cassette tapes and VCRs, to CD/DVDs and MP3/4s, to VOIP tel-         ever (Dale, 2016). Even in their as yet under-developed state, chatbots
+ephony and the plethora of resources the Internet now provides, tech-      present a free and ubiquitous source of language interaction for many
+nology has made it easier for second language learners, and increas-       students learning English as a Foreign Language (i.e., in countries
+ingly possible for students in foreign language learning contexts to       where English is neither the country's ﬁrst or second language). It is
+improve their language skills.                                             therefore essential that research strive to understand how  these po-
+   If technology were a tent pole raising the pavilion of language         tential language partners might be put to use best, both inside and
+learning, then its sharp end would be software capable of supporting       outside formal education.
+language learners through intelligent, scaﬀolded practice. The ﬁeld of        Seeking to address this general aim, the current research extends an
+chatbots seemed poised to begin this shift in how we learn or at least     experimental study comparing university students' interest in chatbot vs
+practice a new language. Being free and online, chatbots could provide     human partners and the eﬀect of these partners on students' interest in
+opportunity for language learners from all parts of the globe to actively  their language course (Fryer, Ainley, Thompson, Gibson, & Sherlock,
+communicate in their chosen second/foreign language. In addition to        2017). The current study was undertaken with the same group of
+
+
+  ☆
+   This research was not supported by a research grant.
+  ∗
+   Corresponding author. The University of Hong Kong, CPD 173, Pokfulam Rd., Hong Kong.
+   E-mail addresses: lukefryer@yahoo.com (L.K. Fryer), Nakao.K.N@gmail.com (K. Nakao), thompson@ip.kyusan-u.ac.jp (A. Thompson).
+
+https://doi.org/10.1016/j.chb.2018.12.023
+Received 7 June 2018; Received in revised form 13 December 2018; Accepted 14 December 2018
+Available online 18 December 2018
+0747-5632/ © 2018 Elsevier Ltd. All rights reserved.
+L.K. Fryer et al.                                                                                         Computers in Human Behavior 93 (2019) 279–289
+
+students, during the next semester of the same course. The current         2.2. Chatbots and language learning
+study builds directly on Fryer et al. (2017) by retesting the same stu-
+dents' interest in the (same) chatbot vs. a random   human language           Computer Assisted Instruction (for a recent review see Voogt, Fisser,
+partner. This extension facilitates longitudinal tests seeking to explain  & Wright, 2015) has a substantial history in the area of human-tech-
+students' interest in these two language partners months later. Finally,   nology interaction supporting learning. Considerable development and
+the present follow-up study adds a qualitative element to our under-       research have focused on the potential of software based intelligent
+standing by examining the merits and demerits of a chatbot/human           tutors or pedagogical agents (for an early review see, Burns & Capps,
+partner from  the perspective of language-learning students across a       1988). Mayer and colleagues have conducted much of the pivotal re-
+range of language proﬁciencies.                                            search in the area of pedagogical agents, making important advances in
+   Through the research described, the current study aimed to examine      areas such as the role of animation (e.g., Moreno, Mayer, Spires, &
+the complex interaction between the strengths and weaknesses of cur-       Lester, 2001) and supporting text (e.g., Moreno & Mayer, 2002). The
+rent chatbot technology, language learners' language ability and their     idea of language tutors has since been pursued to support language
+interest in continuing to engage with the software. Results from  this     learning in classrooms (e.g., Graesser, Chipman, Haynes, &     Olney,
+study are targeted at providing direction for educators in using the wide  2005) and increasingly with mobile technology (e.g, Kukulska-Hulme &
+variety of chatbots currently available online, and supporting devel-      Shield, 2008).
+opers in beginning to ﬁll this sure-to-grow niche in “casual” language        A second area of development has come from outside of both edu-
+learning technology.                                                       cation and language learning circles: Chatbots are programs developed
+   The current study, along with the experimental study it builds on       to engage in conversations with humans. Their role within formal
+(Fryer et al., 2017), narrows the focus of Fryer and Carpenter's (2006)    language education is currently tangential at best. What little research
+examination of the motivational implications of chatbots, and educa-       there is in this area has generally focused on their comprehensibility
+tional technology more broadly, for language learners. The interest        and the motivation they inspire in their users. One of the earliest ex-
+students experienced when conversing with a chatbot and human              aminations of chatbot applications for language learning suggested that
+partner were compared to provide a balanced perspective on how             language-learning students generally enjoyed conversing with a chatbot
+chatbots might be increasingly eﬀective language learning partners.        (Fryer & Carpenter, 2006) and that some students preferred conversing
+                                                                           with the chatbot over other students/teachers. At that stage, chatbots
+                                                                           were suggested as being primarily useful for motivated and/or ad-
+2. Literature review                                                       vanced students. Studies that followed examined the role of chatbots in
+                                                                           supporting motivational elements such    as learner autonomy (e.g.,
+2.1. Chatbot development                                                   Shawar & Atwell, 2007), intrinsic motivation (e.g., Jia & Chen, 2008)
+                                                                           and an inquiry-orientated frame of mind (Goda, Yamada, Matsukawa,
+   Chatbots (Chatterbots) began as a computer-based experiment with        Hata, & Yasunami, 2014).
+language. Joseph Weizenbaum's ELIZA (1966)   is a famous early attempt        Early research evaluating chatbots as language practice tools in-
+at creating software which could maintain a conversation with a            dicated their limitations (Coniam, 2008; Fryer & Nakao, 2009). Both
+human. The ELIZA     program  was designed to replicate the kind of        user input (e.g., necessity of correct spelling) and chatbot output (e.g.,
+questioning interaction a psychoanalyst might utilise and thereby en-      inability to stay “on topic”) concerns were raised as issues that needed
+gage an individual in discussion. Attesting to the potential of this early to be overcome for chatbots to be of widespread usefulness to language
+chatbot—and the many chatbots that have and continue to follow—is          learners. Marking the relatively small improvements in chatbot lan-
+the fact that despite the early chatbot's weaknesses (limited to very      guage competency, few educational researchers have assessed chatbots
+narrow ranges of questions), users have reported preferring to discuss     language competence again until recently.   Coniam  (2014)  evaluated
+their feelings with machines rather than other humans (Block, 1981).       ﬁve well-known chatbots concluding that chatbots have signiﬁcantly
+There is also the enduring popularity of Eliza, which is still used online improved, with three of the  ﬁve presenting 90%   of their answers as
+(Heller, Proctor, Mah, Jewell, & Cheung, 2005) decades after its in-       being grammatically acceptable. While this evidence was hopeful, it
+ception. Both observations are as true for early chatbot interaction as it failed to push chatbots into the clear category of broadly useful for
+is today, with researchers highlighting the persistent communication       language practice. In contrast, Hill et al. (2015) analysed 100 messa-
+with chatbots many individuals choose to undertake (Hill, Ford, &          ging conversations and found that humans carried on signiﬁcantly
+Farreras, 2015).                                                           longer messaging conversations with the chatbot than with other hu-
+   The intervening   ﬁve decades of chatbot development have seen          mans. While each message sent to the chatbot was shorter and the
+steady, if only small improvements to chatbot technology. For the          vocabulary not as rich, this ﬁnding demonstrated the ease with which
+second half of this period, the annual competition for the Loebner prize   humans can communicate with chatbots and the quantity of con-
+presents perhaps the clearest trajectory of this development. The          versational engagement that was possible.
+Loebner competition is an application of Turing's famous test, a test no      Seeking a concrete measure of improvement over the original
+chatbot has yet to pass. A survey of the Loebner competition's winners     Weizenbaum   chatbot, Shah, Warwick, Vallverdú, and Wu (2016)     car-
+(Bradeško & Mladenić, 2013) suggests that chatbots have developed          ried out an experiment directly comparing    ﬁve established modern
+from simple pattern matching systems like Weizenbaum's pioneer eﬀort       chatbots with the original ELIZA chatbot. A comparison of the scoring
+to steadily becoming increasingly complicated in their patterns of in-     of the quality of conversations with the modern versus the original
+teraction and   computer reasoning; however, no      substantial new       ELIZA resulted in conversations with the modern chatbots being of
+breakthroughs have recently emerged.                                       signiﬁcantly higher quality across a range of areas. At the same time,
+   Since ELIZA's early beginning, chatbots have seen increasing use        however, these improved chatbots were often vague and on occasion
+across the Internet. Chatbots have played a wide range of roles within     misled the human participants.
+commerce (for practical recent examples see  Huang et al., 2014; Lasek        As highlighted, chatbots have improved during the past ﬁve decades
+& Jessa, 2013). In addition to their ubiquitous potential for sales, the   and despite lacking a major breakthrough in their language interaction
+prospects for chatbots within ﬁelds as far ranging as stress management    skills, humans still ﬁnd them intriguing enough to play with. This, in
+(Huang et al., 2015) and library support (Allison, 2013) are constantly    and of itself, is hopeful, because it is well established that play is an
+being tested. The most natural and potentially powerful application of     essential component of the    learning  process (e.g., Piaget, 1976;
+chatbots, however, is in line with their fundamental nature: language      Vygotsky, 1978). Through play we can test ourselves and reach beyond
+practice.                                                                  our current abilities under non-threatening    conditions. These are
+
+aﬀordances which technology has an established strength in providing       studying the English language at the end of the course (domain-level
+(e.g., Roussou, 2004). The potential role for chatbots to inspire curiosity interest). Furthermore, the role of self-eﬃ incacy supporting task in-
+and “in the moment interest”  therefore deserves further examination.      terest varied depending on initial academic self-concept and how many
+                                                                           times they undertook the activity (diﬀerent content, but same activity
+2.3. The development and correlates of interest                            each time). Research  ﬁndings supported a complex relationship be-
+                                                                           tween interest and both perceived and actual competence (i.e., self-ef-
+   Current conceptions of the psychology of interest present a robust      ﬁcacy, self-concept and standardised assessment of language   ﬂuency;
+developmental theory (i.e., four-phase model of interest development;      Fryer & Ainley, 2018; Fryer et al., 2016; Fryer, 2015; Hidi & Ainley,
+Hidi & Renninger, 2006; Renninger & Hidi, 2011) for researching the        2008; Silvia, 2003). These ﬁndings point toward the important role of
+motivational potential of chatbots for language learners. Consistent       students' competencies (actual and perceived) within their interest at
+with the four-phase model, it is generally understood that an in-          both the domain (English in general) and task (speciﬁc activities for
+dividual's interest can be divided into situational (largely aﬀective and  learning English) level.
+transient) and individual (increasingly inclusive of value and episte-
+mological components) interest. Also, interest is understood to be         2.5. The current programme of research and the current study
+content speciﬁc (i.e., speciﬁc to one domain, rather than generalised
+across many domains). Standing on these agreed general theoretical            The present study seeks to examine chatbots as language practice
+foundations, the four-phase model of interest development describes an     tools, speciﬁcally from the perspective of their potential role in stimu-
+individual's interest, beginning with initial situational experiences of   lating and then supporting an individual's interest in language learning.
+fun, curiosity and stimulation (triggered situational interest; phase      The current project builds on and extends a recent experimental study
+one). Then, with increasing experience, an individual's interest can       (Fryer et al., 2017), testing the developmental nature of students' in-
+become more sustainable (maintained situational interest; phase two).      terest in a course of study across three structured conversations. These
+Over time and with increasing knowledge of a topic and an increasingly     conversations were conducted with both human and chatbot partners,
+clear sense of value for the area, this interest can potentially develop   utilising a counter-balanced research design. All conversations with the
+into the ﬁrst stage of individual interest (emerging individual interest;  chatbot were conducted with speech-to-text software for student-to-
+phase three). Finally, an enduring form of interest, marked by a con-      chatbot output and simple text for chatbot-to-human output.
+sistent desire to reengage with the topic can develop and become a            Both the prior (Fryer et al., 2017) and current study utilised Cle-
+standing source of motivation for a speciﬁc domain of study (well-de-      verbot. Cleverbot is a recent version of a series of chatbots developed by
+veloped individual interest; phase four).                                  Rollo Carpenter (NA, 2015). Cleverbot and its well-known predecessor
+   The four-phase model is a useful means of understanding interest        (i.e., Jabberwacky) have seen considerable use in previous early and
+and its development, and is particularly relevant for attempting to ex-    recent studies (Fryer & Carpenter, 2006; Hills et al., 2015). Cleverbot
+plain the potential role of chatbots within language learning; this is in  was found to make relatively few grammatical errors (Conaim, 2014)
+part, because of its collative and clear developmental organisation. By    and was therefore selected for use as the chatbot partner in both the
+collative, we mean interest, depending on its stage of development, can    initial and current study.
+be made up of a number of constructs (value, enjoyment, knowledge,            In the initial experimental study (Fryer et al., 2017) students' in-
+and a desire to learn more). By developmental we refer to the four         terest in tasks was measured via the completion of a short survey im-
+stages described by  Hidi and Renninger (2006,   2011). The develop-       mediately after each conversation (human-human and human-chatbot).
+mental nature of the theory enables researchers to more accurately         Structural Equation Modelling and repeated ANOVA of the resulting
+describe how interaction with a chatbot might lead to short and long-      longitudinal data (Times 1, 1.5, 2, and 3.5; see Fig. 1) revealed two
+term  eﬀort, which are key correlates of interest (Tobias, 1995). Em-      ﬁndings of theoretical signiﬁcance. First, controlling for prior interest
+ploying such a model, and undertaking a careful analysis of the interest   in the course, only students' interest in the human conversations pre-
+that students experience interacting with chatbots, might help us shape    dicted increased interest in the course.
+them as better tools for language learners.                                   Second, a “novelty eﬀect” (a longstanding and still important issue
+                                                                           for educational technology; see Chen et al., 2016; Clark, 1983) for the
+2.4. Modelling interest development within formal education                conversations with the chatbot was observed. For the ﬁrst conversations
+                                                                           with the human and chatbot partners, no statistically signiﬁcant dif-
+   The four-phase model (Hidi & Renninger, 2006; Renninger & Hidi,         ference between students' initial interest in the two conversation part-
+2011), while a powerful tool for organising our understanding of gen-      ners were found. Between conversations one and two, students' interest
+eral interest development, unfortunately often fails to ﬁt clearly within  in conversing with the chatbot dropped signiﬁcantly; interest in con-
+the environmental constraints presented by many formal classroom           versing with a human partner, however, remained consistent. These
+settings. For example, student learning is often highly structured in      results were not a good sign for the potential usefulness of chatbots for
+most contexts, with little opportunity, for the pursuit of students'       stimulating meaningful interest in language learning. However, the
+budding interests. From  early education through to the majority of        longstanding (Fryer & Carpenter, 2006) and recent (Hill et al., 2015)
+tertiary experiences, formal education consists chieﬂy of speciﬁc sub-     empirical evidence pointing   towards sustained   human    interest in
+jects, which students take year or semester-long courses in, within        talking to chatbots suggests that a more  ﬁne-grained examination is
+which students undertake a wide variety of tasks/activities.               necessary. Given the essential role of students' prior language compe-
+   Fryer, Ainley, and Thompson (2016)    sought to model interest de-      tence, such an examination must take students' language skills into
+velopment in this highly-structured environment. This model was built      consideration. Finally, much like the Turing Test itself, an essential
+ﬁrmly on the principles of the four-phase model (i.e., assessing a col-    benchmark for understanding chatbot-human interaction is human-
+lative conception of interest and acknowledging the developmental          human interaction. Therefore, any meaningful test in this area must
+nature of interest). At the same time, it also aimed to hypothesise about, make such comparisons possible.
+and test connections between students' on-task experiences, their in-         The current study acknowledges the essential role of task interest for
+terest in their current course and their developing interest in the do-    the development of interest in the English language at the domain level,
+main of study. In an initial longitudinal study employing Structural       mediated by course interest (Fryer et al., 2016). The current study ex-
+Equation Modelling, Fryer et al. (2016) observed complete mediation of     tends and elaborates on experimental examination in Fryer et al. (2017)
+students' interest in tasks (i.e., group vocabulary review  exercises)     of the short-term novelty eﬀects and connection between interest in
+through their future interest in the course, to their general interest in  task learning partners and interest in a course. The current study
+
+                                                                       281
+L.K. Fryer et al.                                                                                         Computers in Human Behavior 93 (2019) 279–289
+
+                                                                           classroom materials) with the student.
+
+                                                                           3. Research questions
+
+                                                                              The current study was organised around three general research
+                                                                           questions:
+
+                                                                           1) Did the decreased interest (Time 1 to Time 2 and persisting to Time
+                                                                              3; see Fig. 1) in conversing with a chatbot (observed in Fryer et al.,
+                                                                              2017) persist across a 20-week gap to Time 5 (Research Question
+                                                                              1)?
+                                                                           2) What was the predictive relationship between prior task, course
+                                                                              interest and language (listening) competency (Time 1 to 4) for task
+                                                                              interest at Time 5 (Research Question 2)?
+                                                                           3) How do students' prior competency, current speaking task interest,
+                                                                              overlap as clustered within the perceived merits and then demerits
+                                                                              of the chatbots as a source of conversation practice (Research
+                                                                              Question 3).
+
+                                                                           4. Methodology
+
+                                                                           4.1. Participants
+
+                                                                              Of the original students from the prior experimental study (n=122;
+                                                                           Fryer et al., 2017) 91 students (22 Female) participated in the current
+                                                                           study. Students were in their ﬁrst and second year (between 18 and 20
+                                                                           years of age) at a private university in Western Japan. Participating
+                                                                           students came from ﬁve of the university's seven faculties (Engineering,
+                                                                           Management, International Studies, Fine Arts and Economics) and were
+                                                                           studying within a coordinated compulsory English as a foreign lan-
+                                                                           guage program. As with the previous study, all students were placed in
+                                                                           their English language classes based on previous performance on a
+Fig. 1. Overall Research Design. Note: Times 1, 1.5, 2 and 3.5 (underlined) were standardised listening/reading test (see Stewart, Gibson, & Fryer,
+included in the Structural Equation Modelling (Fryer et al., 2017) ﬁndings that 2012). Speciﬁcally, as the current class focused on oral communication,
+the current study builds on. For the current study all Time points were drawn students were placed in classes based on their listening test results. All
+upon for the full regression model, Time 4 and 5 for ANOVA tests and Merit/ students participating in the study were in the intermediate banding of
+Demerit integrated examination of Chatbot interest and prior competence.   listening proﬁciency (i.e., having basic communicative ﬂuency in day-
+                                                                           to-day English language). Within this program, textbooks, studying
+therefore pursued a mixed-methods (qual/QUAN) extension by adding          material (Fryer, Anderson, Stewart, Bovee & Gibson, 2010), e-learning
+an additional measurement of students' interest in the same two lan-       (Bovee & Fryer, 2011) and pre/post vocabulary tests (Stewart, Fryer, &
+guage practice tasks (human-human vs. human-chatbot) and collecting        Gibson, 2013) were coordinated across all classes. This ensured that
+supplementary   open-ended   textual feedback. This replication   and      students received a consistent learning experience regardless of their
+qualitative data were collected four months after the end of the original  assigned class.
+study, during the subsequent semester with the same students.
+   Modelling in the current study included standardised term   test re-    4.2. Procedure
+sults and self-reported interest in tasks, course and the general domain
+of study. The students' performance on a standardised listening/reading       One week after the initial experimental study (Fryer et al., 2017)
+semester-end test (the institutional measure for language proﬁciency       and 14 weeks prior to the current extension study (see    Fig. a 1 for
+has been employed successfully in past studies: Fryer et al., 2016; Fryer, detailed presentation of the prior and current research schedule), stu-
+2015). As well as an additional measure of task interest, the current      dents sat a 60-min standardised listening/reading competency test.
+modelling included six additional self-reported measurements of in-        Fifteen weeks after the experimental study, students read an outline of
+terest from the previous semester. Four of these were from the experi-     the current study and chose whether to have their self-reported and
+mental study (Fryer et al., 2017) we aimed to extend and elaborate on,     achievement data included in the current research output. Students'
+as well as two more measures (Time 0 domain interest and Time 3 task       anonymity was guaranteed and no inducement was given to encourage
+interest). Please see Fig. 1 for a complete breakdown of all measures      students to participate in the research. Ethical permission to undertake
+and the division between the previous experimental study and the           the study was granted from the educational centre where the study took
+current study.                                                             place.
+   Through the use of both quantitative and qualitative data, the cur-        The structured conversation used for the current study (same ma-
+rent study aimed to provide a comprehensive examination of students'       terials and methods as with the prior experiment;  Fryer et al., 2017)
+interest experiences. This study aimed to integrate students' perceptions  was developed from   the students' course materials (the textbook all
+of the merits and demerits of chatbots as language practice tools into     participating classes used). The students were randomly organised into
+this examination. In the current study, merits and demerits refers to      two groups. One half of the students spoke with a randomised human
+students' perceptions of the qualities of the human or chatbot partners    partner for 15 min employing the supplied structured dialogue (ex-
+which supported, failed to support or hindered the partner from being      plained and handed out to students at the beginning of the class) and
+eﬀective during a 15-min language practice task (based on weekly           the other half spoke with the chatbot on a Nexus nine-inch tablet.
+                                                                           Consistent with the research this study builds on (Fryer et al., 2017),
+
+the structured dialogues were developed directly from  textbook mate-      data set.
+rials students were currently learning. The dialogue provided 4–5 min         To address Research Question 1, a   t-test was undertaken with the
+of dialogue they could read to each other and then additional content to   original measure of task interest (chatbot Time 2) and the current
+support students in continuing to converse (e.g., questions, questions     measure of task interest (Time 5), which exhibited a drop in task in-
+stems, topic and reply stems). Again, consistent with Fryer et al. (2017), terest interpreted as a novelty eﬀect. This was done to estimate the
+the chatbot conversation was undertaken employing the tablets' native      durability of the novelty eﬀect found in the prior study (Fryer et al.,
+Google Chrome browser speech-to-text software for students' spoken         2017).
+output. Textual output for the chatbot was utilised. The same structured      Seeking to estimate the relative predictive importance of prior
+dialogue was used for the human-human conversation. Students swit-         variables for future task interest, regression analysis was undertaken
+ched conditions after 15 min to the other partner.                         (Research Question 2). While latent Structural Equation Modelling is
+   Consistent with the original experiment, students' interest in the      perhaps the best tool for answering this type of question, the relatively
+speaking task was assessed immediately after the human-human and           small sample size prevented its use. Instead, an exploratory multiple
+human-chatbot conversations with a  ﬁve-question six-level Likert scale    regression analysis was undertaken to assess the variance explanation
+examining task interest (the same as the previous study). After both       of prior competency and interest (task, course and domain) for future
+conversations were completed, students were asked to provide short         communication tasks with human and chatbot partners. Despite its
+answer feedback regarding the relative merits and demerits of both         weaknesses, multiple regression (Forced Entry) is still a useful tool for
+chatbot and human-partnered tasks.                                         gauging the relative importance of variables (for an overview    of it
+                                                                           strengths and weaknesses see Montgomery, Peck, & Vining, 2015; for a
+4.3. Instrumentation                                                       review of its continued relevance see Whittingham, Stephens, Bradbury,
+                                                                           & Freckleton, 2006) at two stages: 1) a full model with all prior interest
+   In both the prior and current study, three diﬀerent short Likert-       measurements and prior competency tested together for their predictive
+based (one to six, from  totally unlike me to totally like me) interest    power, 2) a model with only signiﬁcant predictors from the full model.
+surveys were included for interest measurement. In addition, an open-      This exploratory approach was undertaken due to the lack of prior re-
+ended survey regarding the merit/demerits of human and chatbot             search for the construction of clear hypotheses regarding the prediction
+conversations and a 180-item   listening and reading competence test       of conversation task interest. The second model (signiﬁcant predictor
+were also instruments for the current study.                               model) was conducted, exclusively to suggest direction for future con-
+   The domain interest survey (from  Ichihara & Arai, 2004) consisted      ﬁrmatory tests of these questions. We also ran supplementary regres-
+of three items (e.g., “I ﬁnd English interesting” and “English arouses my  sions each with one independent variable to test the predictive validity
+curiosity”), the course interest survey consisted of four items (e.g., “I  of students' interest in the course (Time 3.5) and their initial interest in
+am fully focused on learning English in this course” and “This English     talking to a chatbot or a human (Time 1).
+course is interesting”) and the task interest survey consisted of ﬁve         Coding and content analysis of students' open-ended feedback re-
+items (e.g., “This activity is personally meaningful” and  “I enjoyed      garding the merits/demerits of the human and chatbot task were un-
+learning English in this activity”). The course and task scales were       dertaken  by two coders, a bilingual Japanese and English      native
+developed for  Fryer et al. (2016) and employed within    Fryer et al.     speaker, on the Japanese text rather than on translations of students'
+(2017). For both scales, a pool of theoretically relevant items was de-    answers (Research Question 3). Coding began with independent de-
+veloped based on the existing interest literature, with split-half EFA and velopment of codes for the data by researchers. Comparison and dis-
+CFA conducted on the pilot data to resolve on a parsimonious set of        cussion resulted in a list of codes for each of the human and chatbot
+items for task and course interest scales.                                 merit/demerit open responses. Two researchers then coded the entire
+   The listening/reading test was an institutional, standardised mea-      data set independently, compared their results and resolved diﬀerences
+sure of students' English language skills (used successfully in a previous through discussion (see Brislin, 1980). Employing these codes for stu-
+interest-based study; Fryer et al., 2016; Fryer, 2015) and took ap-        dents' experienced merits and demerits of the chatbot task engagement,
+proximately 60 min to complete. Only the 90 listening focused items        Z-scores of students' prior competency and task interest (for the chatbot
+from  the test were used in the current study because listening im-        partner) were organised based on these two layers of student feedback.
+provement was a course goal for the classes included in the current        First, the prior language competency and chatbot task interest data
+study. Furthermore, their listening achievement was used to place them     were organised by chatbot task demerit and then at a second, broader
+in their current class and contributed to 20%   of their semester-end      level within chatbot task merits. This was done to provide insight into
+grade.                                                                     the balance of these perceptions relative to prior language skills and
+   Finally, the open-ended survey instructed students to write up to       students current task interest in the chatbot conversation partner (Re-
+three merits and demerits for each the human and then chatbot part-        search Question 3).
+ners. The questions and students' answers were in Japanese. If students
+did not perceive any merits/demerits, they were asked to simply write      6. Results
+“none”. The instructions stated that their answers should be in Japanese
+and ranked in terms of strength (i.e., strongest to weakest).                 As background for the current study, descriptive statistics and re-
+                                                                           liability for all scales were calculated and examined (see Appendices
+5. Data collection and analysis                                            Table 1). All scales presented good reliability (> 0.70; Devellis, 2012)
+                                                                           and pairwise correlations were <  0.90, which is considered the point
+   Fig. 1 presents a detailed schedule for the data collection across      beyond after which multicollinearity issues need to be considered
+both the prior and current study. All Likert surveys were undertaken       (Tabachnick & Fidell, 2007).
+online with the tablets used for the chatbot conversations. The open-
+ended survey was completed on paper after the tablet survey.               6.1. Regression model and novelty t-test
+   All quantitative analyses for the current paper were undertaken
+with JMP 9.01 (SAS, 2007–2011). Missing quantitative data (< 1%)              The regression tests were undertaken to test the predictive power of
+were imputed with a Robust Maximum      Likelihood Estimator prior to      prior interest (task, course and domain) and language competence for
+analyses being conducted. Cronbach's Alpha was calculated to estimate      human-human and human-chatbot language practice. Predictive mod-
+the reliability of the scales used. Calculating the pairwise correlations  elling (Table 1) resulted in substantial variance explained for interest in
+for all constructs followed to provide a general overview of the entire    both the human (full model R2 = 0.67, ﬁnal signiﬁcant predictor model
+
+                                                                       283
+L.K. Fryer et al.                                                                                         Computers in Human Behavior 93 (2019) 279–289
+
+   Table 1
+   Regression results of prior measures of interest and competency for Time 5 human and chatbot partner task interest.
+
+                                                          Chatbot conversation interest Time 5                Human conversation interest Time 5
+
+     Full model                                           R2 = .65, F (10, 81) = 14.90                        R2 = .67, F (10, 91) = 16.02
+     Final model                                          R2 = .61, F (2, 89) = 69.68                         R2 = .66, F (4, 87) = 39.93
+     Course interest Time 3.5                             R2 = .49, F (1, 90) = 84.97                         R2 = .49, F (1, 90) = 86.95
+     Chatbot conversation interest Time 1                 R2 = .40, F (1, 90) = 59.63                         R2 = .23, F (1, 90) = 26.82
+     Human conversation interest Time 1                   R2 = .51, F (1, 90) = 36.54                         R2 = .47, F (1, 90) = 79.08
+
+   Note: The ﬁnal model only includes signiﬁcant predictors from the full model. Below the ﬁnal model, the speciﬁc contribution to the ﬁnal model's variance is
+   presented. Signiﬁcance for all regressions undertaken was p < .001.
+
+R2 = 0.66) and chatbot (full model   R2 = 0.65,  ﬁnal signiﬁcant pre-         Human partners demerits were resolved into seven codes:
+dictor model R2 = 0.61) conversation. Prior interest in the course ex-
+plained  the same amount of interest in      both  conversation  types      1 Communication problems: e.g.,  “There are people who are not good
+(R2 = 0.49). Prior interest in conversations with human partners ex-          at communication.”,  “It is diﬃcult to talk if your partner does not
+plained the bulk of the variance in both Time 5 measures of interest          open up to you.”
+(chatbots R2 = 0.51; human  R2 =  0.47). Appendices Table 2 presents a      2 Not interesting: e.g., “Not interesting.”; “It was just a bother.”
+clear breakdown of the variance explained.                                  3 Not Learn-more: e.g., “We can't check to see if our English sentences
+   A dependent   t-test for Time 2 and Time 5 chatbot conversation in-        are correct or not if it is just us.”, “I can't improve my English be-
+terest established that students' interest in conversing with the chatbot     cause I just talk to a partner at the same level of English as me.”
+had   a  signiﬁcant,  moderate    rebound   (t = 1.82,  df = 90,   Std      4 No value: e.g., “We always talk to partners and it takes a lot of
+error = 0.11, p <  .05, Cohen's d = 0.35). The rebound in interest did        time.”, “Not a good use of class.”
+not, however, bring it back to its highest level at Time 1.                 5 Social problem: e.g.,  “When we don't understand, we just use
+                                                                              Japanese.”, “I know my partners' answers because it is always the
+6.2. Merit/demerit coding                                                     same.”
+                                                                            6 Ability problems: e.g., “When I don't know    the words, the con-
+   Independent coding (by two coders) of students' open-ended to the          versation comes to a dead end. is”; hard“It to think of the answers
+four questions, followed by discussion resulted in six codes for chatbot      on the spot.”
+partner merits:                                                             7 None.
+
+ 1 Convenient: e.g., “It (chatbot) was convenient.”; “It (chatbot) was        To test the substantive role of the coded categories, ANOVAs of
+   quick to use.”                                                          students' prior competency and the two concurrent interest measure-
+ 2 Learn-more: e.g.,  “It is good for pronunciation practice.”;  “The      ments were undertaken using the coded merits and demerits as in-
+   chatbot asked me lots of questions, so I could get a lot of con-        dependent variables. The ANOVAs resulted in signiﬁcant diﬀerences for
+   versation practice.”                                                    interest in human conversations based on their coded merits, interest in
+ 3 Task interest: e.g., “The (chatbot's) answers were interesting! Fun!”;  chatbot conversations based on coded demerits, and prior based on
+   “It (chatbot) was more interesting than usual class.”                   coded chatbot merits and demerits (see Appendices Table 2  for means,
+ 4 Technical beneﬁts: e.g., “When I could not pronounce correctly, it      standard deviations, ANOVAs and Tukey's HSD). The only result di-
+   (chatbot) will not be able to read it. That is a good point.”; “It is easy rectly relevant to the current study was the important role prior com-
+   to use the chatbot input and output.”                                   petence played within chatbot-partnered relative to human-partnered
+ 5 Value: e.g., “It (chatbot) is useful for learning grammar.”;    “It     experiences.
+   (chatbot) is useful for pronunciation.”
+ 6 None.                                                                   6.3. Intersection between chatbot's qualitative merits and demerits
+
+   Four codes for chatbots' demerits were resolved:                           To provide an in-depth perspective on the interaction between
+                                                                           students' reported merits and demerits for conversing speciﬁcally with
+                         “          ﬃ     ” “
+ 1 Ability problem: e.g., It is too di cult. ; I feel too rushed and it is the chatbot (the focus of the current study), these were organised in a
+                    ”
+   too complicated.                                                        two-step manner, with prior competency and self-reported interest in
+                                   “                             ” “
+ 2 Communication problem: e.g.,     We could not communicate.     ; It     the chatbot nested within these two layers of perspectives on the
+                               ”
+   gives me nonsense answers.                                              chatbot conversation experience (perceived demerits organised within
+                ﬃ             “
+ 3 Technical di   culty: e.g., Many times it cannot understand my          perceived merits of the chatbot partners; Fig. 2).
+         ” “                                              ”
+   voice. ; (chatbot)It does the wrong things sometimes.                      Fig. 2 indicates a few  interesting relationships between the per-
+ 4 None.                                                                   ceived merits/demerits of chatbots and students' interest in the chatbot
+                                                                           task and their prior listening competency. First, technical problems
+                          ﬁ
+   For the human merits    ve codes were resolved:                         were dispersed across all of the merits reported, suggesting that many
+                                                                           students experienced diﬃculties using the chatbot. These technical
+                              “                                   ” “
+ 1 Communication ease: e.g.,   I can just ask them anything I want. ; I    problems were generally short-lived (e.g., internet connectivity), but
+                                      ”
+   can communicate with them easily.                                       could also be sustained (e.g., speech-to-text issues). The general results
+                     “                                       ” “
+ 2 Learn-more: e.g.,  I can improve my conversation skills.   ;  I can     suggested that the intersection of the merits and demerits students
+                              ”
+   improve my pronunciation.                                               perceived the chatbot as having, aﬀected the interest experienced. For
+               ﬁ         “
+ 3 Social bene  ts: e.g., I can make friends with people I do not          example, students who felt that the chatbot oﬀered opportunities to
+         ”  “                                   ”
+   know.  ;  I get to talk to people I don't know.                         Learn-more, but also had Communication Problems, experienced more
+                      “                                  ”  “
+ 4 Task interest: e.g., It is fun to talk in English together. ; I enjoyed than one SD greater in their task interest than students who perceived
+     ”
+   it. ;                                                                   the chatbot partner as convenient or fun (situational interest) and ex-
+ 5 None.                                                                   perienced  the  same   Communication    Problems. This    contrast  is
+
+Fig. 2. Prior listening competence and interest in chatbot tasks organised by students' reported demerits within their reported merits of chatbots. Note: Convenience,
+Learn-more, None, Situational interest, Technical Beneﬁts and Value are students' reported merits for conversations with the chatbot partners. Organised within these
+reported merits are the demerits the same students reported: CP = communication problem, TP = Technical problem, AP = ability problem, None = no demerit. All
+data are presented as Z-scores. For each of these nested demerits within merits, Z-scored interest in the chatbot speaking task and Z-scored prior language exam
+results are presented.
+
+particularly striking for Convenience students who also scored better on   the task, compared to other merits, even when facing communication
+the prior language competence exam    than the Learn-more students. A      problems; 3) ﬁnally, technical problems were also experienced quite
+similar comparison is clear between Learn-more/None and Technical          diﬀerently depending on the perceived merits of the chatbot, with the
+beneﬁt/None students' situational interest.                                merit “Convenience” in particular not being supportive of interest in the
+   A clear pattern of low prior competency was evident for students        chatbot task (Research Question 3).
+reporting the primary chatbot demerit as Ability Problems: these stu-         Longitudinal regression modelling and diﬀerence testing across
+dents presented universally low prior competency. These results were to    academic semesters suggested that prior interest in speaking with
+be expected and are an important source of validation for the coding of    human partners, not chatbots, as well as students' prior ability are
+the open-ended textual feedback data.                                      important correlates of students' interest in potential chatbot learning
+   The pattern of task interest experienced for students reporting         partners. The qualitative extension this study adds to Fryer et al. (2017)
+Technical Problems (the most common demerit for chatbots) is im-           indicated if the strengths and weaknesses of our current chatbot tech-
+portant as it may suggest how     such demerits might be overcome.         nology might be understood together. Their convergence on students'
+Students who reported the chatbot as being convenient or not having        interest in chatbot partners and interaction with students' prior ability
+any merits, reported task interest nearly one SD    below  the mean.       suggests that students' perceptions of the chatbot as a tool for “Learning
+Students who reported the chatbot as supporting more learning, having      more”, might mitigate some common chatbot weaknesses due to their
+situational novelty, having technical beneﬁts or value, however, re-       slowly  improving,   but  still underdeveloped    communicative    in-
+ported task interest above the mean despite noting diﬀerent problems       telligence. The following sections will address the theoretical and
+with chatbot interaction. However, only students reporting chatbots as     practical implications of the study's ﬁndings.
+supporting them  in “Learning-more”  expressed above average interest
+despite experiencing communication or technical problems.
+                                                                           7.1. Theoretical implications
+
+7. Discussion                                                                 Given that increasing motivation is a common impetus for using
+                                                                           educational technology and a strength of chatbots (Fryer & Carpenter,
+   The  t-test suggested that the decreased task interest in the chatbot   2006), the novelty eﬀect observed by Fryer et al. (2017) is a source of
+partner, presented by Fryer et al. (2017) as a novelty eﬀect, does see a   considerable concern. Results from the current study suggest that the
+small, but signiﬁcant rebound ﬁve months later (Research Question 1).      decreased interest in the chatbot partner (Fryer et al., 2017) does see a
+Regression analysis was used to model the variance in the task interest    signiﬁcant rebound given enough time. The question that remains is
+in human and chatbot partners (Time 5). Results pointed to prior in-       whether the interest stimulated by reengaging with the chatbot con-
+terest in talking to human partners   ﬁrst and interest in the course      tributes to interest in the students' course (and thereby the broader
+second as explaining substantial variance in both Time 5 chatbot and       domain)—as it failed to do during the ﬁrst term (Fryer et al., 2017). Or
+human task interest (Research Question 2).                                 is it simply a source of triggered situational interest that fails to con-
+   The coding of students' perceptions of the merits and demerits of       tribute to interest development as organised by the four-phase model
+human and chatbot partners presented between four and seven codes.         (Hidi & Renninger, 2006; Renninger & Hidi, 2011). A continuing pro-
+Results from the current study indicated that (see Fig. 2) 1) the coding   gramme of experimental research is necessary to resolve this funda-
+was consistent with prior competency; 2) students who saw the chatbot      mental question about the usefulness of the Internets' burgeoning po-
+as helping them  “Learn-more”  (see examples of students' coded open-      pulation of chatbots for supporting the development of interest in
+ended responses in section 6.2) experienced higher levels of interest in   learning a foreign language.
+
+   Consistent with  Fryer et al. (2017), interest in human-partnered       eﬀect on this development, even if students' studies are being under-
+conversations tasks were of paramount importance in predictive mod-        taken mostly outside of class (Fryer & Bovee, 2016; Fryer & Bovee,
+elling for the current study. The important diﬀerence for the results of   2018). Teachers seeking to employ this kind of technology for extra
+the current study, however, is that interest in conversations with human   practice during independent study are encouraged to frame the chatbot
+partners were the chief predictors of both future chatbot and human-       practice as an opportunity to Learn-more rather than as a convenient
+partner task interest. These ﬁndings suggest that educators should not     tool for practice anywhere and anytime.
+rely entirely on chatbots to stimulate interest in language practice, not     For developers of future chatbots speciﬁcally for language practice
+even interest in future practice with chatbots.                            (or at least having that in mind), ensuring that chatbots can adjust (or
+   The reason behind the suggested importance of human conversation        be  adjusted)   to  students'  language   competence    is  essential.
+for students developing interest in a language course (and thereby         Furthermore, consistent with the previous discussion, students need to
+learning a language more generally, see  Fryer et al., 2016) might be      see chatbots as an opportunity to Learn-more (i.e., learn diﬀerently)
+directly linked to the four-phase model's (Hidi &   Renninger, 2006;       than they could with a human partner. This is an important aspect of
+Renninger & Hidi, 2011) organisation of interest development. Based        future chatbots that developers might work with educators to enhance.
+on this model, for students' interest in the course to develop, their value   Users' language competence is a critical issue in human-technology
+for the course's topic, language in this case, must grow. It is reasonable language practice (see Fryer & Bovee, 2018  for an example) that must
+to suggest that while talking to the chatbot might have been stimu-        be addressed at the initial design stage. As a chatbot that is intelligent
+lating, it was unlikely to have helped students see the value of the       enough to adapt to learners' levels is still not yet available, the most
+language they were using. From    the other side of the equation, it is    straightforward approach might simply be to develop a broad range of
+easier to see how talking to another student might have addressed the      chatbots (or versions), both for diﬀerent topics and a range of levels.
+usefulness of the target language: i.e., “I need this language to get my   The second suggestion, that students should perceive chatbots as an
+point across to them.”                                                     opportunity to “Learn-more”, means that chatbots need not be a facsi-
+   The organisation of students' interest in the chatbot task and their    mile of human interaction. Some of the reasons students in the current
+prior language ability within the students' experience of the weaknesses   study felt they learned more with the chatbot was precisely because it
+and strengths of the chatbot partner pointed toward the perception of      oﬀered opportunities that human language learning partners couldn't (a
+chatbots as a means for “Learning more” than they could with a human       broad range of expressions/questions and vocabulary) and/or wouldn't
+partner in some respects (compared to seeing the chatbot as a con-         (keep on talking, enable repetitive practice). Students' interest in tasks
+venient tool) as potentially being an important moderator for sup-         was the focus of the current study but perceptions of enhanced learning
+porting interest in the chatbot learning partner. The desire to learn      reigned in the mixed-methods analyses. For example, while the re-
+more—to improve and to reengage with the topic—is an essential             ported merit “situational interest” was aligned with above average in-
+component and outcome of interest as it develops (Hidi, Renninger, &       terest, it was not comparable to the amount of interest when students
+Krapp, 2004). Students who see the chatbot as a tool for helping them      reported learned-more as the primary merit of the chatbot. This was
+improve, fruitfully engage with the language in a way human partners       particularly relevant for the students who reported the primary demerit
+cannot or will not support, might be short-circuiting this process and     of the chatbot interaction as communication problems: i.e., Over one SD
+thereby supporting interest development.                                   diﬀerence in chatbot conversation interest. We suggest therefore that
+                                                                           ensuring chatbots put helping students learn-more ﬁrst is a step toward
+7.2. Practical implications                                                ameliorating communication and technical issues common with chat-
+                                                                           bots.
+   We suggest that there might be a range of measures that could
+ameliorate some of the issues raised thus far with chatbot use. Above      8. Limitations and future directions
+and beyond general approaches to chatbot use (Fryer & Nakao, 2009),
+practical implications for teachers will be addressed, followed by im-        As with any study conducted within one educational context, the
+plications for the design of future chatbots.                              external validity of our results awaits further tests both nationally and
+   The  ﬁrst recommendation for teachers is that the spaced use of         internationally. Furthermore, research with other populations such as
+technology could be a preliminary means of addressing the short-term       adults and secondary students are also important. The current study
+novelty beneﬁts of educational technology such as chatbots—at least in     used a mixed-methods design, built on a longitudinal study and utilised
+their present form. The second is that students' prior competence needs    a measure of language competency. However, the test was a con-
+to be taken into consideration both for current practice and future de-    venience made possible by the institution's practice of annual standar-
+velopment. Teachers need to be sure that activities and overall support    dised examinations for all students. It was also receptive and not pro-
+are suﬃcient to ensure all students can be meaningfully stimulated by      ductive (i.e., listening and reading, not writing and speaking), which
+the chatbot-human conversation experience. Both the current study,         may have limited its predictive power for interest in tasks, which in-
+and the prior study it builds on, strongly indicated that interest in      cluded productive as well as receptive competency. Finally, the study
+language practice experiences chieﬂy arise from   human-human con-         was conducted with a convenience sample of students rather than a
+versation experiences. The current study's results reinforce past ﬁnd-     random  sample from   the institution more broadly. Without further
+ings, indicating that if teachers want students to be engaged by chatbot   experimental research, such as the previous study this research sought
+language practice then they need to ensure students  ﬁrst have ample       to build on (Fryer et al., 2017), the current ﬁndings should be treated
+chance to be stimulated by human-human practice. Human-human               with caution.
+conversation predicts interest in both forms of conversation tasks and        In addition to implementing experimental designs, future studies
+interest in the course itself as well (Fryer et al., 2017; 2016).          need to begin developing or adapting current chatbots for the speciﬁc
+   As indicated by the current study, and with past   ﬁndings (Fryer,      purpose of language learning. Chatbots need to be built to address the
+2015; Fryer & Ainley, 2018; Fryer et al., 2017), the competencies and      concerns presented here and in past studies (Coniam, 2008, 2014; Fryer
+motivations students bring with them   can have a powerful eﬀect on        & Carpenter, 2006; Fryer & Nakao, 2009).
+their future experiences and motivational development. Recent re-
+search in blended environments has suggested that online learning          9. Conclusions
+environments can result in negative motivational trajectories for under-
+motivated students (Fryer, Bovee & Nako, 2014). Research has at the           From  the current study we draw a handful of preliminary conclu-
+same time established that teachers can have a substantial positive        sions. First, that a rebound in interest eventually follows novelty eﬀects,
+suggesting that a spaced approach to chatbot use might support in-         grandchildren) will fundamentally change how      we learn new    lan-
+terest. Second, that for language practice, interest in communication      guages. For the foreseeable future, however, using chatbots will result
+activities like those used in the current study arises chieﬂy from interest in a combination of merits and demerits. We suggest that language-
+in talking to human partners and interest in the language course           learning orientated chatbot design elements and appropriate instructor
+broadly. These wellsprings of interest must be attended to ﬁrst if edu-    guided use might forge a balanced path and bring these powerful de-
+cational technology is to play its role in a blended approach to language  vices ﬁrmly into the language learner's toolbox.
+learning.
+   The future use and design of chatbots for language practice should      Conﬂict of interest
+take students' competence level into consideration. Teachers should
+focus on framing the chatbot conversations as an opportunity for stu-         The authors declare that they have no conﬂict of interest.
+dents to learn more and diﬀerent things than one could get from      a
+human   language learning partner—rather than      the chatbot's con-      Acknowledgements
+venience. This could mean the scaﬀolded introduction of new vocabu-
+lary, grammar, and expressions, which a human partner is unlikely to          We would like to acknowledge Aaron Gibson and Zelinda Sherlock
+present. It could also mean providing consistent understandable re-        for their aid in collecting data utilised in the current study. We would
+petition, which a human partner is unlikely to want to provide.            also like to acknowledge Dr. Alex Shum for his very helpful review of a
+   In  the  (not so   distant) future, chatbots (or chatbots' great-       previous version of this manuscript.
+
+Appendixes
+
+Table 1
+Correlations, descriptive statistics and Cronbach's Alphas
+
+                  HumanT1   HumanT2    HumanT3   ChatbotT1  ChatbotT2  ChatbotT3  DomainT0  CourseT1.5  CourseT3.5 TestT4  HumanT5    ChatbotT5
+
+  HumanT1
+                    ∗∗
+  HumanT2         .73
+                    ∗∗         ∗∗
+  HumanT3         .70       .80
+                    ∗∗         ∗∗        ∗∗
+  ChatbotT1       .74       .67        .63
+                    ∗∗         ∗∗        ∗∗         ∗∗
+  ChatbotT2       .66       .83        .80       .62
+                    ∗∗         ∗         ∗∗         ∗         ∗∗
+  ChatbotT3       .69       .68        .71       .69        .71
+                    ∗∗         ∗∗        ∗∗         ∗∗        ∗∗         ∗∗
+  DomainT0        .39       .43        .44       .30        .51        .35
+                    ∗∗         ∗∗        ∗∗         ∗∗        ∗∗         ∗∗         ∗∗
+  CourseT1.5      .66       .54        .57       .56        .56        .59        .43
+                    ∗∗         ∗∗        ∗∗         ∗∗        ∗∗         ∗∗         ∗∗         ∗∗
+  CourseT3.5      .48       .48        .46       .44        .45        .52        .46       .61
+                                         ∗                    ∗∗         ∗          ∗          ∗          ∗∗
+  TestT4          .15       .18        .21       .01        .29        .21        .26       .23         .29
+                    ∗∗         ∗∗        ∗∗         ∗∗        ∗∗         ∗∗         ∗          ∗∗         ∗∗          ∗
+  HumanT5         .68       .65        .67       .49        .62        .54        .44       .51         .73        .18
+                    ∗∗         ∗∗        ∗∗         ∗∗        ∗∗         ∗∗         ∗∗         ∗∗         ∗∗          ∗       ∗∗
+  ChatbotT5       .64       .66        .72       .54        .65        .69        .35       .53         .71        .19     .75
+  Mean            3.87      3.78       3.72      3.80       3.47       3.38       3.90      4.07        3.88       16.42   3.89       3.64
+  SD              .96       1.05       1.07      1.10       1.17       1.26       0.90      1.13        1.00       3.78    .99        1.12
+  Cronbach's Alpha .93      .95        .95       .96        .96        .95        .85       .93         .93        .90     .94        .94
+
+Note: T1 = “Time 1, T1.5 = Time 1.5, T2 = Time 2, T3 = Time 3, T3.5 = Time 3.5, T4 = “Time 4, T5 = Time 5. Human refers to human-partnered task interest.
+Chatbot refers to chatbot-partnered task interest. Course refers to course interest. Domain refers to domain-level interest (i.e., interest in learning English as language
+                                                                                    ∗             ∗∗
+generally). Test refers to a standardised achievement test. The test results range from 0 to 20. = p < .01, = p < .001.
+
+Table 2
+Counts, means and SD for each Human Merit/Demerit and ANOVA results across the coded categories
+
+                              Chatbot interest SD  Human interest SD    Prior listening test SD N    R2 Interest (F, p)    R2 Fluency (F, p)
+
+  Human conversation merits                                                                          .11 (F = 3.13, p = .018) .03(F = .08, p = .49)
+  Communication ease                               3.62 ab        0.96  77.71a           16.77  42
+  Learn-More                                       4.29a          1.20  79.95a           15.90  19
+  None                                             2.94a          1.16  70.00a           29.59  9
+  Social Beneﬁts                                   3.87 ab        0.77  76.32a           19.79  22
+  Situational Interest                             4.13 ab        0.97  70.56a           18.22  19
+  Human conversation demerits                                                                        .02 (F = .31, p = .92) .02(F = .04, p = .87)
+  Ability problems                                 3.60a          0.53  72.67a           14.29  3
+  Communication problems                           3.76a          1.27  75.93a           13.69  17
+  Not interesting                                  3.60a          0.57  68.50a           14.85  2
+  No good for learning                             3.92a          1.14  82.50a           13.74  13
+  None                                             3.87a          1.02  74.24a           21.21  40
+  No Value                                         3.20a          2.55  70.50a           3.54   3
+  Social demerits                                  3.95a          0.78  77.03a           20.02  33
+  Chatbot conversation Merits                                                                        .09 (F = 1.80, p = .11) .12 (F = 2.70, p = .025)
+  Convenience                 2.78a          1.12                       79.80a           17.29  10
+  Learn-More                  3.86a          1.05                       77.27a           19.13  22
+  None                        2.77a          1.39                       68.83b           10.17  7
+  Situational interest        3.77a          1.26                       78.52a           14.02  25
+  Technical beneﬁts           3.55a          1.12                       76.75a           19.61  44
+  Useful                      3.33a          0.99                       41.33b           19.86  3
+  Chatbot conversation demerits                                                                      .09 (F = 3.27, p = .024) .11 (F = 4.04, p = .009)
+
+Table 2 (continued)
+
+                                    Chatbot interest   SD     Human interest    SD     Prior listening test SD      N    R2 Interest (F, p)        R2 Fluency (F, p)
+
+  Ability problems                  3.23 ab            0.71                            56.88b              34.26    8
+  Communication problems            3.08b              1.24                            83.33a              11.81    15
+  None                              5.60a              0.57                            81.50 ab            0.71     2
+  Technical problems                3.61ab             1.15                            76.49a              16.52    86
+
+Note: Means within merits and demerits, tested for human and then chatbot partners, are signiﬁcantly diﬀerent (p          <  .05) where the letter nomenclatures (a, b, ab)
+are diﬀerent: i.e., if two means have the same letter nomenclatures they are not signiﬁcantly diﬀerent (p        <   .05).
