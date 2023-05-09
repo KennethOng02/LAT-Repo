@@ -1,3 +1,5 @@
 .ipynb_checkpoints
 .DS_Store
 /hw3/key.txt
+/hw4/node_modules
+/hw4/config/
