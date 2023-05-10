@@ -42,9 +42,9 @@ async function MS_TextSentimentAnalysis(thisEvent) {
     if(results[0]['sentiment'] == "positive")
         echo += `正向。分數:${results[0]['confidenceScores']['positive']}`;
     else if(results[0]['sentiment'] == "negative")
-        echo += `負向。分數:${results[0]['confidenceScores']['neutral']}`;
+        echo += `負向。分數:${results[0]['confidenceScores']['negative']}`;
     else
-        echo += `中性。分數:${results[0]['confidenceScores']['negative']}`;
+        echo += `中性。分數:${results[0]['confidenceScores']['neutral']}`;
 
     if(results[0]['sentences'][0]['opinions'].length)
         echo += (`\n主詞:${results[0]['sentences'][0]['opinions'][0]['target']['text']}`)
